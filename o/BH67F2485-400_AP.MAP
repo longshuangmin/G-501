@@ -1,0 +1,2683 @@
+
+连接器　版本8.7.7.220718
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_AP.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SIGNATURE_USED.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BATTERY.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BEEP.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACO.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACVREF.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPA.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SCANKEY.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SIN.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_M.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_T.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\I2C_SUB..OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\PC_MODE.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\RTC.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ
+Input Object File: c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\STARTUP1_L.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0002h     0003h    0002h      CODE               _main (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0004h     0007h    0004h      CODE               @ISR_0x04_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0008h     000bh    0004h      CODE               @ISR_0x08_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     000ch     000fh    0004h      CODE               @ISR_0x0c_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0010h     0013h    0004h      CODE               @ISR_0x10_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0014h     0017h    0004h      CODE               @ISR_0x14_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0018h     001bh    0004h      CODE               @ISR_0x18_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     001ch     001fh    0004h      CODE               @ISR_0x1c_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0020h     0023h    0004h      CODE               @ISR_0x20_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0024h     0027h    0004h      CODE               @ISR_0x24_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0028h     002bh    0004h      CODE               @ISR_0x28_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     002ch     002fh    0004h      CODE               @ISR_0x2c_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0030h     0033h    0004h      CODE               @ISR_0x30_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0034h     0037h    0004h      CODE               @ISR_0x34_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0038h     003bh    0004h      CODE               @ISR_0x38_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     003ch     003fh    0004h      CODE               @ISR_0x3C_Routine_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0040h     0062h    0023h      CODE               @start (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     0063h     006bh    0009h      CODE               _Send_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     006ch     007ah    000fh      CODE               _print_str (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     007bh     007bh    0001h      CODE               _setRssi (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     007ch     007dh    0002h      CODE               _send_gsm_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     007eh     007fh    0002h      CODE               _starting_gsm (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     0080h     0098h    0019h      CODE               _goto_next_case (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     0099h     00b0h    0018h      CODE               _dis_nub2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ)
+     00h     00b1h     00beh    000eh      CODE               _dis_beat (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ)
+     00h     00bfh     00e2h    0024h      CODE               _dis_nub1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ)
+     00h     00e3h     00f7h    0015h      CODE               _print_DataLen (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     00f8h     01b4h    00bdh      CODE               _print_long (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     01b5h     0321h    016dh      CODE               _print_double (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     0322h     0325h    0004h      CODE               @ROMDATA_BASE (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\STARTUP1_L.OBJ)
+     00h     0400h     0403h    0004h      CODE               itofaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0404h     0407h    0004h      CODE               @_Int0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0408h     040bh    0004h      CODE               @_Int1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     040ch     040fh    0004h      CODE               @_Adc_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0410h     0413h    0004h      CODE               @_Multi0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0414h     0417h    0004h      CODE               @_Multi1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0418h     041bh    0004h      CODE               @_Multi2_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     041ch     041fh    0004h      CODE               @_Ovp_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0420h     0423h    0004h      CODE               @_TimeBase0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0424h     0427h    0004h      CODE               @_TimeBase1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0428h     042bh    0004h      CODE               @_Int2_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     042ch     042fh    0004h      CODE               @_Int32_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0430h     0433h    0004h      CODE               @_Uart0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0434h     0437h    0004h      CODE               @_Sim_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0438h     043bh    0004h      CODE               @_Spi_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     043ch     043fh    0004h      CODE               @_Uart1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0440h     06c1h    0282h      CODE               _main_AP (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     06c2h     071fh    005eh      CODE               _Uart1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0720h     0726h    0007h      CODE               _Spi_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0727h     072dh    0007h      CODE               _Sim_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     072eh     0734h    0007h      CODE               _Int32_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0735h     073bh    0007h      CODE               _Int2_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     073ch     0742h    0007h      CODE               _TimeBase1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0743h     0749h    0007h      CODE               _Ovp_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     074ah     0750h    0007h      CODE               _Multi2_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0751h     0757h    0007h      CODE               _Multi1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0758h     075eh    0007h      CODE               _Int1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     075fh     0765h    0007h      CODE               _Int0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0766h     076dh    0008h      CODE               _delay (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     0770h     0790h    0021h      CODE               _Adc_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     0791h     07b7h    0027h      CODE               _Multi0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     07b8h     07c1h    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     07c2h     07c6h    0005h      CODE               _fun_StripModuleAllOpen2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     07cdh     08b7h    00ebh      CODE               _TimeBase0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     08b8h     08c8h    0011h      CODE               _Short_beep (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BEEP.OBJ)
+     00h     08cdh     092bh    005fh      CODE               _Uart0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     092ch     0943h    0018h      CODE               @builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0944h     0983h    0040h      CODE               _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0984h     0990h    000dh      CODE               _fun_StripModuleAllOpen (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0998h     09a5h    000eh      CODE               itodaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     09a6h     09e3h    003eh      CODE               @builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     09e4h     0a1fh    003ch      CODE               _builtin_holtek_dtdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0a38h     0a62h    002bh      CODE               _builtin_holtek_dtol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0a78h     0a89h    0012h      CODE               ltodaz (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0a8ah     0ab4h    002bh      CODE               _InitADC_Op2n_Avss (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0ab5h     0acah    0016h      CODE               @builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0acbh     0afch    0032h      CODE               _builtin_holtek_ftdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0afdh     0b31h    0035h      CODE               _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0b32h     0b65h    0034h      CODE               @builtin_holtek_ftsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0b66h     0b90h    002bh      CODE               @builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0b91h     0bc4h    0034h      CODE               _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0bc5h     0bf3h    002fh      CODE               _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0bf4h     0bfah    0007h      CODE               _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0bfbh     0c00h    0006h      CODE               _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0c01h     0c10h    0010h      CODE               _fun_ADCStart (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0c11h     0c17h    0007h      CODE               _fun_ADCStop (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0c2ah     0c50h    0027h      CODE               _InitADC_Op1n1_Op1s1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0c51h     0c79h    0029h      CODE               _InitADC_Op1n2_Op1s0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0c7ah     0ca5h    002ch      CODE               _InitADC_Op1n1_Avss (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0ca6h     0ccah    0025h      CODE               _InitADC_Op1n2_Avss (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0ccbh     0cf2h    0028h      CODE               _InitADC_Op2n_Op2o (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0d28h     0d31h    000ah      CODE               _fun_DACVREFInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACVREF.OBJ)
+     00h     0d32h     0e4fh    011eh      CODE               _Measurement_Temp (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0e50h     0eb0h    0061h      CODE               _Measurement_Battery (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0eb1h     0ef4h    0044h      CODE               _Measurement_Daco (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0ef5h     0f1ch    0028h      CODE               _Measurement_Op1n1_Op1s1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0f1dh     0f83h    0067h      CODE               _Set_HCT_Adc_Channel (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     0f84h     0fb5h    0032h      CODE               _fabs (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     0fb6h     0fd4h    001fh      CODE               _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0fd5h     0fddh    0009h      CODE               _Lcd_Bat (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     0fdeh     0fe9h    000ch      CODE               _BeepReset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BEEP.OBJ)
+     00h     0ffbh     0ffeh    0004h      CODE               _Initial_SysStm (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     0fffh     0fffh    0001h      CODE               _send_uart_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     1000h     103eh    003fh      CODE               _CROM2PROM (CROM2PROM)
+     00h     103fh     10ffh    00c1h      CODE               _frexp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1100h     13ffh    0300h      CODE               _log (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1454h     14ddh    008ah      CODE               _ldexp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     14deh     1842h    0365h      CODE               _exp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1843h     194eh    010ch      CODE               _pow (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1957h     1a00h    00aah      CODE               _sqrt (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1a01h     1bb7h    01b7h      CODE               _Impedance_Compute (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     1bb8h     1f88h    03d1h      CODE               _atan (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     1f89h     1ff2h    006ah      CODE               _Current_to_AD_Convert (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     1ffbh     1ffdh    0003h      CODE               _Initial_SysLvr (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     1ffeh     1fffh    0002h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     01h     0000h     0144h    0145h      CODE               _atan2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     01h     0145h     01d3h    008fh      CODE               _ADCtoCurrent_Convert (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     01h     01d4h     0206h    0033h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     01h     0207h     0255h    004fh      CODE               _BatteryCheckProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BATTERY.OBJ)
+     01h     0256h     027dh    0028h      CODE               _delay_ms (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     027eh     033ah    00bdh      CODE               _BeepProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BEEP.OBJ)
+     01h     033bh     034dh    0013h      CODE               _keyinti (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     034eh     0371h    0024h      CODE               _Is_strip_in_sleep_wakeup (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0372h     0388h    0017h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0389h     03bch    0034h      CODE               _fun_DACnInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACO.OBJ)
+     01h     03bdh     03e9h    002dh      CODE               _Read_EEPROMBuf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     01h     03eah     041ah    0031h      CODE               _Write_EEPROMBuf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     01h     041bh     04b8h    009eh      CODE               _Load_VrefDaco_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACO.OBJ)
+     01h     04b9h     04c1h    0009h      CODE               _Clr_MinString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     04c2h     04c4h    0003h      CODE               _fun_AFEPoweronInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     04c5h     04e2h    001eh      CODE               _Read_EEPROMByte (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     01h     04e3h     051bh    0039h      CODE               _Write_EEPROMByte (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     01h     051ch     0531h    0016h      CODE               _SystemRAM_clear (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0532h     0545h    0014h      CODE               _Initial_SysClock (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0546h     054fh    000ah      CODE               _Initial_SysLcd (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0550h     0558h    0009h      CODE               _Initial_SysPTM0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0559h     055eh    0006h      CODE               _Initial_SysTimebase (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     055fh     056dh    000fh      CODE               _Initial_SysInt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     056eh     0570h    0003h      CODE               _Initial_SysLvd (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0571h     0573h    0003h      CODE               _Initial_SysWdt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0574h     057bh    0008h      CODE               _Initial_SysAdc (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     057fh     05f2h    0074h      CODE               _fun_CalOPA1Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPA.OBJ)
+     01h     05f3h     0666h    0074h      CODE               _fun_CalOPA2Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPA.OBJ)
+     01h     0667h     06dch    0076h      CODE               _fun_CalOPA3Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPA.OBJ)
+     01h     06ddh     06e0h    0004h      CODE               _fun_CalOPAOffset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     06e1h     072bh    004bh      CODE               _Initial_SysGpio (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     072ch     0739h    000eh      CODE               _Initnal_StmCmp_Lirc_16K (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     073ah     0747h    000eh      CODE               _Initnal_StmCmp_Hirc_8K (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0748h     0756h    000fh      CODE               _Initial_Sys (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0757h     075ch    0006h      CODE               _Initial_HaltSys (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     075dh     08e5h    0189h      CODE               _Load_System_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     08e6h     095ah    0075h      CODE               _get_CalCurrentToADC (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     095bh     0979h    001fh      CODE               _Load_StripMeas_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     097ah     0996h    001dh      CODE               _Save_RtcTime (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     0997h     09b1h    001bh      CODE               _memset (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     01h     09b2h     09edh    003ch      CODE               _Load_RtcTime_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     01h     09eeh     0ac5h    00d8h      CODE               _ScanKey (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SCANKEY.OBJ)
+     01h     0ac6h     11e1h    071ch      CODE               _fun_SineWaveInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SIN.OBJ)
+     01h     11e2h     12e1h    0100h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SIN.OBJ)
+     01h     12e2h     12f7h    0016h      CODE               _fun_UART0PowerOnInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     12f8h     130ah    0013h      CODE               _fun_UART1PowerOnInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     130bh     1338h    002eh      CODE               _fun_Uart1StartTx (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     1339h     1384h    004ch      CODE               _fun_UART1WriteTxBufStart (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     1385h     13b2h    002eh      CODE               _fun_Uart0StartTx (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     13b3h     13feh    004ch      CODE               _fun_UART0WriteTxBufStart (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     13ffh     1405h    0007h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     1406h     1466h    0061h      CODE               _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     01h     1467h     1520h    00bah      CODE               _fun_UART_SendValue (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     01h     1521h     159dh    007dh      CODE               _PwrOnMode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     01h     159eh     15fah    005dh      CODE               _Show_BigString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     15fbh     1603h    0009h      CODE               _LCD_Clear (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1604h     1677h    0074h      CODE               _OffMoedProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     01h     1678h     1690h    0019h      CODE               _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     01h     1691h     1710h    0080h      CODE               _Lcd_Clock_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1711h     179eh    008eh      CODE               _Lcd_Month_Day_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     179fh     1891h    00f3h      CODE               _Alarm_Check_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     01h     1892h     18ddh    004ch      CODE               _ChargerProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     01h     18deh     18e5h    0008h      CODE               _LCD_Par_init (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     18e6h     190ah    0025h      CODE               _Drv_Enable_FWEN (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     01h     190bh     1932h    0028h      CODE               _Drv_ReadFlashRom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     01h     1933h     1978h    0046h      CODE               _Drv_Erase_Page (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     01h     1979h     1a07h    008fh      CODE               _Drv_WriteFlashRom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     01h     1a10h     1aefh    00e0h      CODE               _LCD_BitSetOut (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1af0h     1b07h    0018h      CODE               _LCD_Clear_Buff (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1b08h     1b14h    000dh      CODE               _Clr_BigString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1b15h     1b8fh    007bh      CODE               _Show_MonthDayString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1b90h     1ba0h    0011h      CODE               _Clr_MonthDayString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1ba1h     1ba9h    0009h      CODE               _Clr_MonthString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1baah     1bb2h    0009h      CODE               _Clr_DayString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1bb3h     1c2dh    007bh      CODE               _Show_HourMinString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1c2eh     1c3eh    0011h      CODE               _Clr_HourMinString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1c3fh     1c47h    0009h      CODE               _Clr_HourString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1c51h     1d31h    00e1h      CODE               _ShowDec_BigNum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1d32h     1dd4h    00a3h      CODE               _ShowDec_BigNum_for_mem (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1dd5h     1ea2h    00ceh      CODE               _ShowDec_MonthDay (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1ea3h     1f70h    00ceh      CODE               _ShowDec_HourMin (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1f71h     1f89h    0019h      CODE               _ShowDec_MeasDownCount (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1f8ah     1fb1h    0028h      CODE               _WriteAll_LCD (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1fb2h     1fc6h    0015h      CODE               _LCD_Clear1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1fc7h     1feeh    0028h      CODE               _ReadAll_LCD (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1fefh     1ffbh    000dh      CODE               _Lcd_Unit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     1ffch     1ffeh    0003h      CODE               _Clr_Bat (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0000h     00e6h    00e7h      CODE               _LCD_ScanOut1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     00e7h     0178h    0092h      CODE               _LCD_ScanOut (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0179h     020ch    0094h      CODE               _LCD_Seg_TestScan (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     020dh     02b2h    00a6h      CODE               _LCD_ScanIn (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     02b3h     02f4h    0042h      CODE               _Lcd_Year_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     02f5h     02f9h    0005h      CODE               _Clr_Unit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     02fah     0302h    0009h      CODE               _Lcd_ControlOption (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0303h     04f6h    01f4h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     04f7h     052dh    0037h      CODE               _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     02h     052eh     05d4h    00a7h      CODE               _Lcd_Glucose (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     05d5h     066fh    009bh      CODE               _Lcd_ShowHW (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0670h     0706h    0097h      CODE               _Lcd_ShowFW (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0707h     07aah    00a4h      CODE               _Lcd_ShowAvgNum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     07abh     0809h    005fh      CODE               _Lcd_ShowAvgDay (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     080ah     0855h    004ch      CODE               _Lcd_ShowC1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0856h     0897h    0042h      CODE               _Lcd_ShowC2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0898h     0930h    0099h      CODE               _Lcd_ShowRecordLength (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0931h     0940h    0010h      CODE               _Lcd_Display_Tes (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     02h     0941h     0971h    0031h      CODE               _WritePage_flash (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     0972h     09d0h    005fh      CODE               _ReadPage_flash (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     09d1h     09fah    002ah      CODE               _Flash_Store_Read_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     09fbh     0a96h    009ch      CODE               _Flash_Store_Write_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     0a97h     0affh    0069h      CODE               _Flash_Store_PageErase_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     0b00h     0ba1h    00a2h      CODE               _Significant_Checksum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     0ba2h     0d64h    01c3h      CODE               _Store_SetVauletoFlash (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     0d65h     0e8bh    0127h      CODE               _DateToSecond (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\RTC.OBJ)
+     02h     0e8ch     1023h    0198h      CODE               _Store_measurement_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     02h     1024h     1036h    0013h      CODE               _init_Error_Task (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     1037h     1056h    0020h      CODE               _intit_Impedance (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     1057h     1776h    0720h      CODE               _load_autoCode_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     1777h     1778h    0002h      CODE               _get_auto_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     1779h     1cbah    0542h      CODE               _get_glucose (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     1cbbh     1effh    0245h      CODE               _get_glucose_ctr (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     1f00h     1f0fh    0010h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     1f10h     1f2fh    0020h      CODE               _strlen (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     02h     1f30h     1f6dh    003eh      CODE               _strncmp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     02h     1f6eh     1fb8h    004bh      CODE               _strstr (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     02h     1fb9h     1fc2h    000ah      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     02h     1fc3h     1fd1h    000fh      CODE               _abs (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     02h     1fd2h     1fd5h    0004h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_M.OBJ)
+     02h     1fd6h     1fe1h    000ch      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_T.OBJ)
+     02h     1fe2h     1ff8h    0017h      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\PC_MODE.OBJ)
+     03h     0000h     1132h    1133h      CODE               _Normal_Measurement_Mode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     03h     114dh     11ceh    0082h      CODE               _uart_order (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     03h     11cfh     19a3h    07d5h      CODE               _TestingMode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     03h     19a4h     1aach    0109h      CODE               _Error_meassage_process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     03h     1aadh     1c4fh    01a3h      CODE               _SecondToDate (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\RTC.OBJ)
+     03h     1c50h     1ca3h    0054h      CODE               _frexp2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     04h     0000h     0895h    0896h      CODE               _MemoryMode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_M.OBJ)
+     04h     0896h     1182h    08edh      CODE               _RTC_Mode_Setting_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_T.OBJ)
+     05h     0e00h     0e3fh    0040h      CODE               crom_SerialNumber_Table (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+     05h     0e40h     0e49h    000ah      CODE               @crom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ)
+     05h     0e80h     0effh    0080h      CODE               crom_Significant_Table (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+     05h     0f80h     0febh    006ch      CODE               crom_glucose_auto_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+     05h     1400h     1bffh    0800h      CODE               crom_Exampledata0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+     05h     1f80h     1f80h    0001h      CODE               crom_signature (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SIGNATURE_USED.OBJ)
+     00h     008fh     008fh    0001h      DATA     635       @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0090h     0090h    0001h      DATA     1134      @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0091h     0091h    0001h      DATA     989       @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0092h     0092h    0001h      DATA     1061      @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0093h     0093h    0001h      DATA     1024      @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0094h     0094h    0001h      DATA     661       @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0095h     0095h    0001h      DATA     645       @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0096h     0096h    0001h      DATA     59        @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0097h     009ch    0006h      DATA     351.33    ftdata1 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     009dh     009fh    0003h      DATA     297       dtdata (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a0h     00a6h    0007h      DATA     122.71    ftdata2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00a7h     00a7h    0001h      DATA     2         @data_r104 (isr:ra~rh)
+     00h     00a8h     00a8h    0001h      DATA     2         @data_r204 (isr:ra~rh)
+     00h     00a9h     00a9h    0001h      DATA     2         @data_r108 (isr:ra~rh)
+     00h     00aah     00aah    0001h      DATA     2         @data_r208 (isr:ra~rh)
+     00h     00abh     00abh    0001h      DATA     2         @data_r10c (isr:ra~rh)
+     00h     00ach     00ach    0001h      DATA     2         @data_r20c (isr:ra~rh)
+     00h     00adh     00adh    0001h      DATA     2         @data_r110 (isr:ra~rh)
+     00h     00aeh     00aeh    0001h      DATA     2         @data_r210 (isr:ra~rh)
+     00h     00afh     00afh    0001h      DATA     1         @data_ra10 (isr:ra~rh)
+     00h     00b0h     00b0h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     00b1h     00b1h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     00b2h     00b2h    0001h      DATA     2         @data_r118 (isr:ra~rh)
+     00h     00b3h     00b3h    0001h      DATA     2         @data_r218 (isr:ra~rh)
+     00h     00b4h     00b4h    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     00b5h     00b5h    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     00b6h     00b6h    0001h      DATA     2         @data_r120 (isr:ra~rh)
+     00h     00b7h     00b7h    0001h      DATA     2         @data_r220 (isr:ra~rh)
+     00h     00b8h     00b8h    0001h      DATA     6         @data_ra20 (isr:ra~rh)
+     00h     00b9h     00b9h    0001h      DATA     3         @data_rb20 (isr:ra~rh)
+     00h     00bah     00bah    0001h      DATA     2         @data_r124 (isr:ra~rh)
+     00h     00bbh     00bbh    0001h      DATA     2         @data_r224 (isr:ra~rh)
+     00h     00bch     00bch    0001h      DATA     2         @data_r128 (isr:ra~rh)
+     00h     00bdh     00bdh    0001h      DATA     2         @data_r228 (isr:ra~rh)
+     00h     00beh     00beh    0001h      DATA     2         @data_r12c (isr:ra~rh)
+     00h     00bfh     00bfh    0001h      DATA     2         @data_r22c (isr:ra~rh)
+     00h     00c0h     00c0h    0001h      DATA     2         @data_r130 (isr:ra~rh)
+     00h     00c1h     00c1h    0001h      DATA     2         @data_r230 (isr:ra~rh)
+     00h     00c2h     00c2h    0001h      DATA     2         @data_r134 (isr:ra~rh)
+     00h     00c3h     00c3h    0001h      DATA     2         @data_r234 (isr:ra~rh)
+     00h     00c4h     00c4h    0001h      DATA     2         @data_r138 (isr:ra~rh)
+     00h     00c5h     00c5h    0001h      DATA     2         @data_r238 (isr:ra~rh)
+     00h     00c6h     00c6h    0001h      DATA     2         @data_r13c (isr:ra~rh)
+     00h     00c7h     00c7h    0001h      DATA     2         @data_r23c (isr:ra~rh)
+     00h     00c8h     00c8h    0001h      DATA     3         @data_ra3c (isr:ra~rh)
+     00h     00fbh     00fbh    0001h      DATA     6         @HCCINIT_dis (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00fch     00fch    0001h      DATA     3         @HCCINIT___distime_4107 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     00h     00fdh     00feh    0002h      DATA     174       @HCCINIT0_M_RTC_display (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     00ffh     00ffh    0001h      DATA     113       @HCCINIT0_M_TaskBuf0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0080h     0080h    0001h      DATA     99        @HCCINIT0_M_Cbuf0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0081h     0081h    0001h      DATA     96        @HCCINIT0_Flag2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0082h     0083h    0002h      DATA     85        @HCCINIT0_M_No_Active_Cnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0084h     0084h    0001h      DATA     71        @HCCINIT0_M_TaskBuf1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0085h     0085h    0001h      DATA     69        @HCCINIT0_Flag6 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0086h     0086h    0001h      DATA     67        @HCCINIT0_Flag1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0087h     0087h    0001h      DATA     51        @HCCINIT0_M_Error_Task (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0088h     0088h    0001h      DATA     42        @HCCINIT0_Flag4 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0089h     0089h    0001h      DATA     37        @HCCINIT0_M_Task (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     008ah     008ah    0001h      DATA     30        @HCCINIT0_M_Days (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     008bh     008bh    0001h      DATA     24        @HCCINIT0_M_Month (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     008ch     008ch    0001h      DATA     22        @HCCINIT0_M_Minutes (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     008dh     008dh    0001h      DATA     21        @HCCINIT0_M_Hour (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     008eh     008eh    0001h      DATA     19        @HCCINIT0_M_UART_TxIndex (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     008fh     008fh    0001h      DATA     18        @HCCINIT0_M_Cbuf1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0090h     0090h    0001h      DATA     17        @HCCINIT0_M_Year (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     0091h     00b4h    0024h      DATA     14.083    @HCCINIT0_lcd (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     00b5h     00b5h    0001h      DATA     14        @HCCINIT0_M_UART_RxIndex (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00b6h     00b7h    0002h      DATA     13        @HCCINIT0_M_Beep_Cnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00b8h     00b9h    0002h      DATA     13        @HCCINIT0_M_GM_data_Record (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00bah     00bfh    0006h      DATA     12.167    @HCCINIT0_SDKADCSourceData (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00c0h     00c0h    0001h      DATA     12        @HCCINIT0_M_SinGain (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00c1h     00c2h    0002h      DATA     12        @HCCINIT0_M_Temperature (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00c3h     00c3h    0001h      DATA     12        @HCCINIT0_M_Unit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00c4h     00c5h    0002h      DATA     12        @HCCINIT0_M_GM_data_Record_buf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00c6h     00c6h    0001h      DATA     11        @HCCINIT0_M_UART_TxLength (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00c7h     00c8h    0002h      DATA     11        @HCCINIT0_M_GM_Record_current (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00c9h     00c9h    0001h      DATA     10        @HCCINIT0_M_Second (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00cah     00cbh    0002h      DATA     10        @HCCINIT0_M_GM_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00cch     00cch    0001h      DATA     9         @HCCINIT0_FlashTimeFlag (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00cdh     00cdh    0001h      DATA     9         @HCCINIT0_Cbuf0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     01h     00ceh     00ceh    0001h      DATA     8         @HCCINIT0_M_Alarm4_MIN (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00cfh     00cfh    0001h      DATA     8         @HCCINIT0_M_Alarm4_HR (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d0h     00d0h    0001h      DATA     8         @HCCINIT0_M_Alarm3_MIN (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d1h     00d1h    0001h      DATA     8         @HCCINIT0_M_Alarm3_HR (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d2h     00d2h    0001h      DATA     8         @HCCINIT0_M_Alarm2_MIN (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d3h     00d3h    0001h      DATA     8         @HCCINIT0_M_Alarm2_HR (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d4h     00d4h    0001h      DATA     8         @HCCINIT0_M_Alarm1_MIN (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d5h     00d5h    0001h      DATA     8         @HCCINIT0_M_Alarm1_HR (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d6h     00d6h    0001h      DATA     8         @HCCINIT0_M_UART_Tx_ErrorCnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d7h     00d7h    0001h      DATA     8         @HCCINIT0_M_UARTRxTimeOut (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d8h     00d8h    0001h      DATA     8         @HCCINIT0_M_Strip_Type (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00d9h     00dch    0004h      DATA     8         @HCCINIT0_M_Lbuf0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00ddh     00deh    0002h      DATA     8         @HCCINIT0_M_Ibuf0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00dfh     00dfh    0001h      DATA     7         @HCCINIT0_Flag7 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00e0h     00e1h    0002h      DATA     6         @HCCINIT0_M_Current (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00e2h     00e2h    0001h      DATA     6         @HCCINIT0_M_UART_TxIndex_Old (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00e3h     00e3h    0001h      DATA     5         @HCCINIT0_M_Halt_Cnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00e4h     00f7h    0014h      DATA     4.3       @HCCINIT0_LcdBuf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     01h     00f8h     00f8h    0001h      DATA     4         @HCCINIT0_FlashTimeCon (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00f9h     00f9h    0001h      DATA     4         @HCCINIT0_M_Main_cnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     01h     00fah     00fbh    0002h      DATA     4         @HCCINIT0_errno (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     01h     00fch     00ffh    0004h      DATA     3         @HCCINIT0_M_Impedance (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     0080h     0087h    0008h      DATA     4         @HCCINIT0_proportion (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     0088h     0089h    0002h      DATA     3         @HCCINIT0_M_BAT_Energy (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     008ah     008bh    0002h      DATA     3         @HCCINIT0_M_90daysNumber (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     008ch     008dh    0002h      DATA     3         @HCCINIT0_M_60daysNumber (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     008eh     008fh    0002h      DATA     3         @HCCINIT0_M_30daysNumber (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     0090h     0091h    0002h      DATA     3         @HCCINIT0_M_14daysNumber (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     0092h     0093h    0002h      DATA     3         @HCCINIT0_M_7daysNumber (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     0094h     0097h    0004h      DATA     3         @HCCINIT0_M_90days_datasum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     0098h     009bh    0004h      DATA     3         @HCCINIT0_M_60days_datasum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     009ch     009fh    0004h      DATA     3         @HCCINIT0_M_30days_datasum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00a0h     00a3h    0004h      DATA     3         @HCCINIT0_M_14days_datasum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00a4h     00a7h    0004h      DATA     3         @HCCINIT0_M_7days_datasum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00a8h     00a8h    0001h      DATA     3         @HCCINIT0_M_Excitation_Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00a9h     00a9h    0001h      DATA     3         @HCCINIT0_M_Second_buf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00aah     00abh    0002h      DATA     3         @HCCINIT0_M_Log (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00ach     00ach    0001h      DATA     3         @HCCINIT0_count (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     00adh     00adh    0001h      DATA     2         @HCCINIT0_Flag8 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00aeh     00aeh    0001h      DATA     2         @HCCINIT0_M_PageIndex (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00afh     00b0h    0002h      DATA     2         @HCCINIT0_M_PageAddress (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00b1h     00b2h    0002h      DATA     2         @HCCINIT0_M_28daysNumber (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00b3h     00b6h    0004h      DATA     2         @HCCINIT0_M_28days_datasum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00b7h     00b8h    0002h      DATA     2         @HCCINIT0_M_GM_SendRecord (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00b9h     00bah    0002h      DATA     2         @HCCINIT0_Ibuf0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     00bbh     00bbh    0001h      DATA     1         @HCCINIT0_M_SinFreq (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00bch     00bdh    0002h      DATA     1         @HCCINIT0_M_DropCurrent_Adc (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00beh     00bfh    0002h      DATA     1         @HCCINIT0_M_StripUsedCurrent_Adc (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00c0h     00c1h    0002h      DATA     1         @HCCINIT0_M_TriggerCurrent_Adc (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00c2h     00c3h    0002h      DATA     1         @HCCINIT0_M_Avg_16bit_result (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00c4h     00c4h    0001h      DATA     1         @HCCINIT0_M_Main_Cal_Cnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00c5h     00c6h    0002h      DATA     1         @HCCINIT0_M_Ibuf2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00c7h     00c8h    0002h      DATA     1         @HCCINIT0_M_Ibuf1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00c9h     00c9h    0001h      DATA     1         @HCCINIT0_M_ErrorCount (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00cah     00cah    0001h      DATA     1         @HCCINIT0_temp (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     02h     00cbh     00cbh    0001h      DATA     0         @HCCINIT0_Flag5 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00cch     00cch    0001h      DATA     0         @HCCINIT0_Flag3 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00cdh     00ceh    0002h      DATA     0         @HCCINIT0_M_Cal_100K_Adc (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00cfh     00d0h    0002h      DATA     0         @HCCINIT0_M_Cal_10K_Adc (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00d1h     00d8h    0008h      DATA     0         @HCCINIT0_M_HCT_ADCData (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00d9h     00e0h    0008h      DATA     0         @HCCINIT0_M_ImpedanceBuf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00e1h     00e4h    0004h      DATA     0         @HCCINIT0_M_Theta (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00e5h     00e5h    0001h      DATA     0         @HCCINIT0_Command (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00e6h     00e6h    0001h      DATA     0         @HCCINIT0_ReceiveFlag (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00e7h     00e8h    0002h      DATA     0         @HCCINIT0_M_BackCurrent (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00e9h     00eah    0002h      DATA     0         @HCCINIT0_M_CurrentX10 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00ebh     00ebh    0001h      DATA     0         @HCCINIT0_M_OPA_Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00ech     00edh    0002h      DATA     0         @HCCINIT0_M_Excitation_Voltage (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00eeh     00eeh    0001h      DATA     0         @HCCINIT0_M_UartInsertCnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00efh     00efh    0001h      DATA     0         @HCCINIT0_M_Length (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f0h     00f0h    0001h      DATA     0         @HCCINIT0_M_BeepMode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f1h     00f2h    0002h      DATA     0         @HCCINIT0_M_GM_Range_Low (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f3h     00f4h    0002h      DATA     0         @HCCINIT0_M_GM_Range_Hi (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f5h     00f5h    0001h      DATA     0         @HCCINIT0_M_DaysLimit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f6h     00f6h    0001h      DATA     0         @HCCINIT0_M_Daco2H (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f7h     00f7h    0001h      DATA     0         @HCCINIT0_M_Daco2L (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f8h     00f8h    0001h      DATA     0         @HCCINIT0_M_Daco1H (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00f9h     00f9h    0001h      DATA     0         @HCCINIT0_M_Daco1L (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00fah     00fah    0001h      DATA     0         @HCCINIT0_M_Main_Cnt_6s (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00fbh     00fbh    0001h      DATA     0         @HCCINIT0_M_Main_Cal (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00fch     00fch    0001h      DATA     0         @HCCINIT0_M_KeyDebounce (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00fdh     00fdh    0001h      DATA     0         @HCCINIT0_M_Hold_cnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00feh     00feh    0001h      DATA     0         @HCCINIT0_M_Inc_Cnt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     02h     00ffh     00ffh    0001h      DATA     0         @HCCINIT0_M_DCTurnOn (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     0080h     0081h    0002h      DATA     0         @HCCINIT0_M_MSKey_Hold_CNT (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     0082h     0083h    0002h      DATA     0         @HCCINIT0_M_SKey_Hold_CNT (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     0084h     0085h    0002h      DATA     0         @HCCINIT0_M_MKey_Hold_CNT (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     0086h     0086h    0001h      DATA     0         @HCCINIT0_M_DCTurnOff (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     0087h     0087h    0001h      DATA     0         @HCCINIT0_M_ACTurnOn (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     0088h     0089h    0002h      DATA     0         @HCCINIT0_M_LogCount_Switch (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     008ah     008bh    0002h      DATA     0         @HCCINIT0_M_LogCount (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     008ch     008dh    0002h      DATA     0         @HCCINIT0_M_WaitCount (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     008eh     008eh    0001h      DATA     0         @HCCINIT0_M_FlashPage (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     03h     008fh     0092h    0004h      DATA     0         @HCCINIT0_Project_Sequence (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     03h     0093h     009ah    0008h      DATA     0         @HCCINIT0_buf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     03h     009bh     009ch    0002h      DATA     0         @HCCINIT0_Address (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     03h     009dh     009eh    0002h      DATA     0         @HCCINIT0_Ibuf1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     03h     009fh     00a2h    0004h      DATA     0         @HCCINIT0_Lbuf1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     03h     00a3h     00a4h    0002h      DATA     0         @HCCINIT0_bdmode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     03h     00a5h     00a6h    0002h      DATA     0         @HCCINIT0_memmode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_M.OBJ)
+     0ah     0081h     0081h    0001h      DATA     2         @data_r320 (isr:ra~rh)
+     0eh     0098h     0098h    0001h      DATA     2         @data_r53c (isr:ra~rh)
+     0eh     0099h     0099h    0001h      DATA     2         @data_r63c (isr:ra~rh)
+     12h     00feh     00feh    0001h      DATA     2         @data_r520 (isr:ra~rh)
+     12h     00ffh     00ffh    0001h      DATA     2         @data_r620 (isr:ra~rh)
+     14h     0080h     0080h    0001h      DATA     2         @data_r530 (isr:ra~rh)
+     14h     0081h     0081h    0001h      DATA     2         @data_r630 (isr:ra~rh)
+     14h     0082h     0082h    0001h      DATA     2         @data_r33c (isr:ra~rh)
+     14h     0083h     0083h    0001h      DATA     2         @data_r43c (isr:ra~rh)
+     14h     0087h     0087h    0001h      DATA     2         @data_r330 (isr:ra~rh)
+     14h     0088h     0088h    0001h      DATA     2         @data_r430 (isr:ra~rh)
+     14h     008ah     008ah    0001h      DATA     2         @data_r420 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00fbh     00fbh    0000h      LOCAL    0         @dummy (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     00fbh     00fbh    0000h      LOCAL    0         _main (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ)
+     00h     00f9h     00fah    0002h      LOCAL    4.5       _main_AP (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysClock (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _keyinti (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    3         _delay (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_Sys (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysGpio (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysLcd (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysInt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysTimebase (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysStm (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysPTM0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_SysAdc (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _SystemRAM_clear (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00d1h     00d1h    0001h      LOCAL    0         _LCD_Clear (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    2         _LCD_Clear_Buff (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d0h     00d0h    0001h      LOCAL    2         _LCD_ScanOut (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     00cbh     00cfh    0005h      LOCAL    3         _WriteAll_LCD (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _LCD_Par_init (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00ceh    0004h      LOCAL    5         _Load_System_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00d6h     00dah    0005h      LOCAL    7.2       _Load_VrefDaco_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACO.OBJ)
+     00h     00ceh     00d2h    0005h      LOCAL    5.4       _Read_EEPROMBuf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     00h     00cbh     00cdh    0003h      LOCAL    2.6667    _Read_EEPROMByte (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     00h     00d1h     00d5h    0005h      LOCAL    6.6       _Write_EEPROMBuf (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     00h     00ceh     00d0h    0003h      LOCAL    2.3333    _Write_EEPROMByte (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\EEPROM.OBJ)
+     00h     00cdh     00cdh    0000h      LOCAL    0         _Load_StripMeas_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    4         _get_CalCurrentToADC (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_uitof (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_ftdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_ftdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_ftmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_ftsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_ftol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00ddh     00e3h    0007h      LOCAL    1         _Load_RtcTime_Vaule (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00d0h    0006h      LOCAL    30.5      _memset (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00d6h     00dch    0007h      LOCAL    1         _Save_RtcTime (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _fun_AFEPoweronInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cfh     00cfh    0000h      LOCAL    0         _fun_CalOPAOffset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00ceh    0004h      LOCAL    4         _fun_CalOPA1Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPA.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00ceh    0004h      LOCAL    4         _fun_CalOPA2Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPA.OBJ)
+     00h     00cbh     00ceh    0004h      LOCAL    4         _fun_CalOPA3Offset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPA.OBJ)
+     00h     00d0h     00d0h    0001h      LOCAL    2         _LCD_ScanOut1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _ScanKey (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SCANKEY.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _BeepProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BEEP.OBJ)
+     00h     00cfh     00cfh    0001h      LOCAL    3         _BatteryCheckProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BATTERY.OBJ)
+     00h     00cdh     00ceh    0002h      LOCAL    2         _Measurement_Battery (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    12        _fun_DACVREFInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACVREF.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _fun_ADCStart (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _fun_ADCStop (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    0         _Lcd_Bat (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d2h     00d2h    0000h      LOCAL    0         _ChargerProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _PwrOnMode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     00h     00f4h     00f5h    0002h      LOCAL    5.5       _Normal_Measurement_Mode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _fun_UART0PowerOnInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     00h     00cbh     00cdh    0003h      LOCAL    10.667    _fun_DACnInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\DACO.OBJ)
+     00h     00d2h     00d2h    0001h      LOCAL    0         _init_Error_Task (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _load_autoCode_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_dtol (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_dtdecode (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cdh     00ceh    0002h      LOCAL    2         _Measurement_Daco (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    2         _Measurement_Op1n1_Op1s1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _InitADC_Op1n1_Op1s1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _fun_StripModuleAllOpen (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00d7h     00e2h    000ch      LOCAL    7.3333    _ADCtoCurrent_Convert (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00d6h    000ch      LOCAL    8.0833    _builtin_holtek_mulsi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_ltod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_dtmul (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_dtdiv (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_uitod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_dtsubadd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _fun_StripModuleAllOpen2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cdh     00d4h    0008h      LOCAL    6         _Measurement_Temp (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    6         _ShowDec_BigNum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d1h     00d1h    0001h      LOCAL    0         _LCD_Clear1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cch     00cch    0000h      LOCAL    0         _dis_beat (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Lcd_Unit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cdh    0003h      LOCAL    11        _LCD_BitSetOut (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00e4h     00e5h    0002h      LOCAL    7         _Lcd_Month_Day_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cfh    0005h      LOCAL    20.6      _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00d0h     00d1h    0002h      LOCAL    13        _Lcd_Clock_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d0h     00d0h    0000h      LOCAL    0         _intit_Impedance (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00cbh     00cfh    0005h      LOCAL    17.6      _fun_SineWaveInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SIN.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    6         _Set_HCT_Adc_Channel (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    0         _dis_nub2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ)
+     00h     00cbh     00d2h    0008h      LOCAL    11.125    _builtin_holtek_divmodhi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_itod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     14h     00d6h     00f7h    0022h      LOCAL    3.4706    _Impedance_Compute (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00e8h     00f3h    000ch      LOCAL    7.1667    _pow (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _builtin_holtek_ultod (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00dah     00e7h    000eh      LOCAL    13.286    _log (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00d9h    000fh      LOCAL    3.3333    _frexp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00d6h     00e3h    000eh      LOCAL    7.2143    _exp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00ceh    0004h      LOCAL    6.75      _fabs (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00d5h    000bh      LOCAL    5         _ldexp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00d4h     00dbh    0008h      LOCAL    6.5       _sqrt (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00d3h    0009h      LOCAL    2.5556    _frexp2 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00cfh    0005h      LOCAL    5.2       _get_glucose_ctr (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00cbh     00cfh    0005h      LOCAL    10        _get_glucose (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00d3h     00d4h    0002h      LOCAL    8         _Lcd_Glucose (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    23        _Show_BigString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00e3h     00edh    000bh      LOCAL    2.3636    _Store_measurement_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     00h     00d9h     00dch    0004h      LOCAL    4         _Store_SetVauletoFlash (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     00h     00cfh     00d5h    0007h      LOCAL    4.5714    _ReadPage_flash (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     00h     00cbh     00ceh    0004h      LOCAL    4.75      _Drv_ReadFlashRom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Significant_Checksum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     00h     00d6h     00d8h    0003h      LOCAL    4         _WritePage_flash (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     00h     00cfh     00d4h    0006h      LOCAL    3.6667    _Drv_Erase_Page (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Drv_Enable_FWEN (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     00h     00cfh     00d5h    0007h      LOCAL    3.2857    _Drv_WriteFlashRom (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\IAP.OBJ)
+     00h     00d7h     00e2h    000ch      LOCAL    4.5       _DateToSecond (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\RTC.OBJ)
+     00h     00d1h     00d1h    0000h      LOCAL    0         _goto_next_case (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _starting_gsm (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _send_gsm_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _setRssi (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\GSM.OBJ)
+     00h     00cch     00cdh    0002h      LOCAL    4         _print_str (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    2         _Send_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     00d1h     00dbh    000bh      LOCAL    3.3636    _strstr (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00cch    0002h      LOCAL    3         _strlen (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00d0h    0006h      LOCAL    3         _strncmp (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00e6h     00f8h    0013h      LOCAL    15.789    _MemoryMode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_M.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    10        _Flash_Store_Read_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    3         _Lcd_ShowAvgNum (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00d6h    000ch      LOCAL    4.8333    _SecondToDate (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\RTC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Clr_BigString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00d8h    000eh      LOCAL    8         _builtin_holtek_divmodsi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cdh     00cdh    0001h      LOCAL    6         _Error_meassage_process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     00h     00e6h     00e6h    0001h      LOCAL    46        _RTC_Mode_Setting_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_T.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Clr_MonthString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Clr_DayString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Clr_HourString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Clr_MinString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00e6h     00e6h    0000h      LOCAL    0         _Alarm_Check_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     00h     00f4h     00f5h    0002h      LOCAL    8         _TestingMode (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    5         _uart_order (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_COMM_CAL.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    2         _abs (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00d2h     00d2h    0000h      LOCAL    0         _OffMoedProcess (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\MODE.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Initial_HaltSys (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _InitADC_Op1n2_Op1s0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _InitADC_Op1n1_Avss (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _InitADC_Op1n2_Avss (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _InitADC_Op2n_Op2o (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _InitADC_Op2n_Avss (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00d7h     00e2h    000ch      LOCAL    3.6667    _atan2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00cbh     00d6h    000ch      LOCAL    24        _atan (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib)
+     00h     00cbh     00d4h    000ah      LOCAL    3.8       _Current_to_AD_Convert (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\ADC.OBJ)
+     00h     00d1h     00d1h    0000h      LOCAL    0         _Short_beep (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BEEP.OBJ)
+     00h     00cbh     00d0h    0006h      LOCAL    3         _delay_ms (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     00cch     00ceh    0003h      LOCAL    3.6667    _Is_strip_in_sleep_wakeup (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BH67F2485_DEMO_20190705.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1028 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Int0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1032 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Int1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1036 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Adc_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1040 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Multi0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1044 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Multi1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1048 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Multi2_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1052 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _Ovp_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         @dummy1056 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00cah    0002h      LOCAL    3         _TimeBase0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         @dummy1060 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         _TimeBase1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         @dummy1064 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         _Int2_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         @dummy1068 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         _Int32_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cch     00cch    0000h      LOCAL    0         @dummy1072 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    3         _Uart0_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         @dummy1076 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         _Sim_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         @dummy1080 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         _Spi_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         @dummy1084 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00c9h     00c9h    0000h      LOCAL    0         _Uart1_funinterrupt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INTERRUPT.OBJ)
+     00h     00cch     00d0h    0005h      LOCAL    2.6       _fun_UART0WriteTxBufStart (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    2         _fun_Uart0StartTx (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     00h     00d9h     00ebh    0013h      LOCAL    2.5789    _fun_UART_SendValue (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     00h     00cch     00d0h    0005h      LOCAL    4.4       _fun_UART1WriteTxBufStart (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     00h     00cbh     00cbh    0001h      LOCAL    2         _fun_Uart1StartTx (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _Show_MonthDayString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _Show_HourMinString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _ShowDec_BigNum_for_mem (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _ShowDec_MonthDay (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _ShowDec_HourMin (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cdh     00d2h    0006h      LOCAL    1         _ShowDec_MeasDownCount (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d1h     00d2h    0002h      LOCAL    9         _LCD_Seg_TestScan (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d0h     00d0h    0000h      LOCAL    0         _LCD_ScanIn (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cfh    0005h      LOCAL    1.2       _ReadAll_LCD (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d0h     00d0h    0001h      LOCAL    0         _Lcd_Year_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _Lcd_ShowHW (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _Lcd_ShowFW (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d0h     00d0h    0001h      LOCAL    1         _Lcd_ShowAvgDay (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d0h     00d0h    0001h      LOCAL    1         _Lcd_ShowC1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00d0h     00d0h    0001h      LOCAL    0         _Lcd_ShowC2 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cch    0002h      LOCAL    1         _Lcd_ShowRecordLength (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     00h     00cbh     00cbh    0000h      LOCAL    0         _get_auto_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00e3h     00fah    0018h      LOCAL    3.0833    _print_double (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     00d1h     00e2h    0012h      LOCAL    2.5       _print_long (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     00cch     00d1h    0006h      LOCAL    2         _print_DataLen (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART2.OBJ)
+     00h     00d1h     00d1h    0001h      LOCAL    1         _dis_nub1 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCD2.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     0ah     0081h     0081h    0000h      ILOCAL   0         _BeepReset (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\BEEP.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Initial_SysLvr (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Initial_SysLvd (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Initial_SysWdt (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Initnal_StmCmp_Lirc_16K (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Initnal_StmCmp_Hirc_8K (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\INITIAL.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _fun_UART1PowerOnInit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\UART.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Clr_MonthDayString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Clr_HourMinString (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Clr_Unit (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Clr_Bat (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Lcd_ControlOption (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _Lcd_Display_Tes (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\LCDSCAN.OBJ)
+     12h     0082h     0085h    0004h      ILOCAL   1.5       _Flash_Store_Write_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     0ah     0084h     0085h    0002h      ILOCAL   2         _Flash_Store_PageErase_Process (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH.OBJ)
+     0ah     0081h     0081h    0000h      ILOCAL   0         _send_uart_data (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\OPMODE_A.OBJ)
+     00h     00cbh     00cbh    0000h      ILOCAL   0         _builtin_holtek_dtnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      ILOCAL   0         _builtin_holtek_ftnorm (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      ILOCAL   0         _builtin_holtek_dtinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     00cbh     00cbh    0000h      ILOCAL   0         _builtin_holtek_ftinf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+
+     Unallocated Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     05h     3f00h     3f01h    0002h      CODE               crom_signature (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\SIGNATURE_USED.OBJ)
+     05h     2800h     37ffh    1000h      CODE               crom_Exampledata0 (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+     05h     1f00h     1fd7h    00d8h      CODE               crom_glucose_auto_code (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+     05h     1d00h     1dffh    0100h      CODE               crom_Significant_Table (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+     05h     1c00h     1c7fh    0080h      CODE               crom_SerialNumber_Table (c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\FLASH_AREA.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     2145h              _ADCtoCurrent_Convert
+     0770h              _Adc_funinterrupt
+     039bh              _Address
+     379fh              _Alarm_Check_Process
+     44efh              _AsciiTab
+     2207h              _BatteryCheckProcess
+     227eh              _BeepProcess
+     0fdeh              _BeepReset
+     01cdh              _Cbuf0
+     3892h              _ChargerProcess
+     3ffch              _Clr_Bat
+     3b08h              _Clr_BigString
+     3baah              _Clr_DayString
+     3c2eh              _Clr_HourMinString
+     3c3fh              _Clr_HourString
+     24b9h              _Clr_MinString
+     3b90h              _Clr_MonthDayString
+     3ba1h              _Clr_MonthString
+     42f5h              _Clr_Unit
+     02e5h              _Command
+     1003h              _Crom2Prom
+     1000h              _Crom2PromNext
+     1f89h              _Current_to_AD_Convert
+     4d65h              _DateToSecond
+     38e6h              _Drv_Enable_FWEN
+     3933h              _Drv_Erase_Page
+     390bh              _Drv_ReadFlashRom
+     3979h              _Drv_WriteFlashRom
+     79a4h              _Error_meassage_process
+     b400h              _Exampledata0
+     0186h              _Flag1
+     0181h              _Flag2
+     02cch              _Flag3
+     0188h              _Flag4
+     02cbh              _Flag5
+     0185h              _Flag6
+     01dfh              _Flag7
+     02adh              _Flag8
+     01f8h              _FlashTimeCon
+     01cch              _FlashTimeFlag
+     4a97h              _Flash_Store_PageErase_Process
+     0a84h              _Flash_Store_PageErase_Process_2
+     49d1h              _Flash_Store_Read_Process
+     49fbh              _Flash_Store_Write_Process
+     1282h              _Flash_Store_Write_Process_2
+     44dfh              _HexTab
+     0004h              _ISR_0x04_Routine
+     0008h              _ISR_0x08_Routine
+     000ch              _ISR_0x0c_Routine
+     0010h              _ISR_0x10_Routine
+     0014h              _ISR_0x14_Routine
+     0018h              _ISR_0x18_Routine
+     001ch              _ISR_0x1c_Routine
+     0020h              _ISR_0x20_Routine
+     0024h              _ISR_0x24_Routine
+     0028h              _ISR_0x28_Routine
+     002ch              _ISR_0x2c_Routine
+     0030h              _ISR_0x30_Routine
+     0034h              _ISR_0x34_Routine
+     0038h              _ISR_0x38_Routine
+     003ch              _ISR_0x3C_Routine
+     02b9h              _Ibuf0
+     039dh              _Ibuf1
+     1a01h              _Impedance_Compute
+     14d6h              _Impedance_Compute_2
+     0c7ah              _InitADC_Op1n1_Avss
+     0c2ah              _InitADC_Op1n1_Op1s1
+     0ca6h              _InitADC_Op1n2_Avss
+     0c51h              _InitADC_Op1n2_Op1s0
+     0a8ah              _InitADC_Op2n_Avss
+     0ccbh              _InitADC_Op2n_Op2o
+     2757h              _Initial_HaltSys
+     2748h              _Initial_Sys
+     2574h              _Initial_SysAdc
+     2532h              _Initial_SysClock
+     26e1h              _Initial_SysGpio
+     255fh              _Initial_SysInt
+     2546h              _Initial_SysLcd
+     256eh              _Initial_SysLvd
+     1ffbh              _Initial_SysLvr
+     2550h              _Initial_SysPTM0
+     0ffbh              _Initial_SysStm
+     2559h              _Initial_SysTimebase
+     2571h              _Initial_SysWdt
+     273ah              _Initnal_StmCmp_Hirc_8K
+     272ch              _Initnal_StmCmp_Lirc_16K
+     075fh              _Int0_funinterrupt
+     0758h              _Int1_funinterrupt
+     0735h              _Int2_funinterrupt
+     072eh              _Int32_funinterrupt
+     234eh              _Is_strip_in_sleep_wakeup
+     3a10h              _LCD_BitSetOut
+     35fbh              _LCD_Clear
+     3fb2h              _LCD_Clear1
+     3af0h              _LCD_Clear_Buff
+     38deh              _LCD_Par_init
+     420dh              _LCD_ScanIn
+     40e7h              _LCD_ScanOut
+     4000h              _LCD_ScanOut1
+     4179h              _LCD_Seg_TestScan
+     039fh              _Lbuf1
+     0fd5h              _Lcd_Bat
+     3691h              _Lcd_Clock_Process
+     42fah              _Lcd_ControlOption
+     4931h              _Lcd_Display_Tes
+     452eh              _Lcd_Glucose
+     3711h              _Lcd_Month_Day_Process
+     47abh              _Lcd_ShowAvgDay
+     4707h              _Lcd_ShowAvgNum
+     480ah              _Lcd_ShowC1
+     4856h              _Lcd_ShowC2
+     4670h              _Lcd_ShowFW
+     45d5h              _Lcd_ShowHW
+     4898h              _Lcd_ShowRecordLength
+     3fefh              _Lcd_Unit
+     42b3h              _Lcd_Year_Process
+     2372h              _LeapYear_TABLE
+     29b2h              _Load_RtcTime_Vaule
+     295bh              _Load_StripMeas_Vaule
+     275dh              _Load_System_Vaule
+     241bh              _Load_VrefDaco_Vaule
+     0290h              _M_14daysNumber
+     02a0h              _M_14days_datasum
+     02b1h              _M_28daysNumber
+     02b3h              _M_28days_datasum
+     028eh              _M_30daysNumber
+     029ch              _M_30days_datasum
+     028ch              _M_60daysNumber
+     0298h              _M_60days_datasum
+     0292h              _M_7daysNumber
+     02a4h              _M_7days_datasum
+     028ah              _M_90daysNumber
+     0294h              _M_90days_datasum
+     0387h              _M_ACTurnOn
+     01d5h              _M_Alarm1_HR
+     01d4h              _M_Alarm1_MIN
+     01d3h              _M_Alarm2_HR
+     01d2h              _M_Alarm2_MIN
+     01d1h              _M_Alarm3_HR
+     01d0h              _M_Alarm3_MIN
+     01cfh              _M_Alarm4_HR
+     01ceh              _M_Alarm4_MIN
+     02c2h              _M_Avg_16bit_result
+     0288h              _M_BAT_Energy
+     02e7h              _M_BackCurrent
+     02f0h              _M_BeepMode
+     01b6h              _M_Beep_Cnt
+     02cdh              _M_Cal_100K_Adc
+     02cfh              _M_Cal_10K_Adc
+     0180h              _M_Cbuf0
+     018fh              _M_Cbuf1
+     01e0h              _M_Current
+     02e9h              _M_CurrentX10
+     0386h              _M_DCTurnOff
+     02ffh              _M_DCTurnOn
+     02f8h              _M_Daco1H
+     02f9h              _M_Daco1L
+     02f6h              _M_Daco2H
+     02f7h              _M_Daco2L
+     018ah              _M_Days
+     02f5h              _M_DaysLimit
+     02bch              _M_DropCurrent_Adc
+     02c9h              _M_ErrorCount
+     0187h              _M_Error_Task
+     02a8h              _M_Excitation_Offset
+     02ech              _M_Excitation_Voltage
+     038eh              _M_FlashPage
+     02f3h              _M_GM_Range_Hi
+     02f1h              _M_GM_Range_Low
+     01c7h              _M_GM_Record_current
+     02b7h              _M_GM_SendRecord
+     01cah              _M_GM_data
+     01b8h              _M_GM_data_Record
+     01c4h              _M_GM_data_Record_buf
+     02d1h              _M_HCT_ADCData
+     01e3h              _M_Halt_Cnt
+     02fdh              _M_Hold_cnt
+     018dh              _M_Hour
+     01ddh              _M_Ibuf0
+     02c7h              _M_Ibuf1
+     02c5h              _M_Ibuf2
+     01fch              _M_Impedance
+     02d9h              _M_ImpedanceBuf
+     02feh              _M_Inc_Cnt
+     02fch              _M_KeyDebounce
+     01d9h              _M_Lbuf0
+     02efh              _M_Length
+     02aah              _M_Log
+     038ah              _M_LogCount
+     0388h              _M_LogCount_Switch
+     0384h              _M_MKey_Hold_CNT
+     0380h              _M_MSKey_Hold_CNT
+     02fbh              _M_Main_Cal
+     02c4h              _M_Main_Cal_Cnt
+     02fah              _M_Main_Cnt_6s
+     01f9h              _M_Main_cnt
+     018ch              _M_Minutes
+     018bh              _M_Month
+     0182h              _M_No_Active_Cnt
+     02ebh              _M_OPA_Offset
+     02afh              _M_PageAddress
+     02aeh              _M_PageIndex
+     00fdh              _M_RTC_display
+     0382h              _M_SKey_Hold_CNT
+     01c9h              _M_Second
+     02a9h              _M_Second_buf
+     02bbh              _M_SinFreq
+     01c0h              _M_SinGain
+     02beh              _M_StripUsedCurrent_Adc
+     01d8h              _M_Strip_Type
+     0189h              _M_Task
+     00ffh              _M_TaskBuf0
+     0184h              _M_TaskBuf1
+     01c1h              _M_Temperature
+     02e1h              _M_Theta
+     02c0h              _M_TriggerCurrent_Adc
+     01d7h              _M_UARTRxTimeOut
+     01b5h              _M_UART_RxIndex
+     018eh              _M_UART_TxIndex
+     01e2h              _M_UART_TxIndex_Old
+     01c6h              _M_UART_TxLength
+     01d6h              _M_UART_Tx_ErrorCnt
+     02eeh              _M_UartInsertCnt
+     01c3h              _M_Unit
+     038ch              _M_WaitCount
+     0190h              _M_Year
+     0e50h              _Measurement_Battery
+     0eb1h              _Measurement_Daco
+     0ef5h              _Measurement_Op1n1_Op1s1
+     0d32h              _Measurement_Temp
+     8000h              _MemoryMode
+     2383h              _Month_TABLE1
+     237dh              _Month_TABLE2
+     0791h              _Multi0_funinterrupt
+     0751h              _Multi1_funinterrupt
+     074ah              _Multi2_funinterrupt
+     6000h              _Normal_Measurement_Mode
+     3604h              _OffMoedProcess
+     0743h              _Ovp_funinterrupt
+     038fh              _Project_Sequence
+     3521h              _PwrOnMode
+     21d4h              _R103KT_TABLE
+     8896h              _RTC_Mode_Setting_Process
+     3fc7h              _ReadAll_LCD
+     4972h              _ReadPage_flash
+     23bdh              _Read_EEPROMBuf
+     24c5h              _Read_EEPROMByte
+     02e6h              _ReceiveFlag
+     01bah              _SDKADCSourceData
+     297ah              _Save_RtcTime
+     29eeh              _ScanKey
+     7aadh              _SecondToDate
+     0063h              _Send_data
+     ae00h              _SerialNumber_Table
+     0f1dh              _Set_HCT_Adc_Channel
+     08b8h              _Short_beep
+     3c51h              _ShowDec_BigNum
+     3d32h              _ShowDec_BigNum_for_mem
+     3ea3h              _ShowDec_HourMin
+     3f71h              _ShowDec_MeasDownCount
+     3dd5h              _ShowDec_MonthDay
+     359eh              _Show_BigString
+     3bb3h              _Show_HourMinString
+     3b15h              _Show_MonthDayString
+     4b00h              _Significant_Checksum
+     ae80h              _Significant_Table
+     0727h              _Sim_funinterrupt
+     3222h              _SinData_12
+     3242h              _SinData_16
+     3262h              _SinData_20
+     3282h              _SinData_24
+     32a2h              _SinData_28
+     32c2h              _SinData_32
+     31e2h              _SinData_4
+     3202h              _SinData_8
+     0720h              _Spi_funinterrupt
+     4ba2h              _Store_SetVauletoFlash
+     4e8ch              _Store_measurement_data
+     251ch              _SystemRAM_clear
+     5fe3h              _Table_BootLoad
+     3401h              _Table_Bootload
+     5ff4h              _Table_Glucose
+     5ff2h              _Table_Hi
+     5ff0h              _Table_Lo
+     5fe2h              _Table_OK
+     5fech              _Table_mgdl
+     5fe8h              _Table_mmol
+     71cfh              _TestingMode
+     07cdh              _TimeBase0_funinterrupt
+     073ch              _TimeBase1_funinterrupt
+     08cdh              _Uart0_funinterrupt
+     06c2h              _Uart1_funinterrupt
+     3f8ah              _WriteAll_LCD
+     4941h              _WritePage_flash
+     23eah              _Write_EEPROMBuf
+     00d5h              _Write_EEPROMBuf_2
+     24e3h              _Write_EEPROMByte
+     07beh              __DELAYX0
+     07bdh              __DELAYX1
+     07bch              __DELAYX2
+     07bbh              __DELAYX3
+     07bah              __DELAYX4
+     07b9h              __DELAYX5
+     07b8h              __DELAYX6
+     5fc3h              _abs
+     1bb8h              _atan
+     2000h              _atan2
+     00d7h              _atan2_2
+     03a3h              _bdmode
+     0393h              _buf
+     44f7h              _builtin_holtek_divmodhi4_isr00
+     3406h              _builtin_holtek_divmodsi4_isr00
+     09a8h              _builtin_holtek_dtadd
+     0937h              _builtin_holtek_dtdecode1
+     092ch              _builtin_holtek_dtdecode2
+     09e4h              _builtin_holtek_dtdiv
+     0bf4h              _builtin_holtek_dtinf
+     0944h              _builtin_holtek_dtmul
+     0b91h              _builtin_holtek_dtnorm
+     0a38h              _builtin_holtek_dtol
+     09a6h              _builtin_holtek_dtsub
+     093fh              _builtin_holtek_dtzero
+     0942h              _builtin_holtek_dtzero1
+     009ah              _builtin_holtek_exp1
+     00a3h              _builtin_holtek_exp2
+     009ch              _builtin_holtek_floatflag
+     0b34h              _builtin_holtek_ftadd
+     0abfh              _builtin_holtek_ftdecode1
+     0ab5h              _builtin_holtek_ftdecode2
+     0acbh              _builtin_holtek_ftdiv
+     0bfbh              _builtin_holtek_ftinf
+     0afdh              _builtin_holtek_ftmul
+     0bc5h              _builtin_holtek_ftnorm
+     0b66h              _builtin_holtek_ftol
+     0b32h              _builtin_holtek_ftsub
+     0ac7h              _builtin_holtek_ftzero
+     0ac9h              _builtin_holtek_ftzero1
+     0998h              _builtin_holtek_itod
+     0a78h              _builtin_holtek_ltod
+     0097h              _builtin_holtek_mant1
+     009dh              _builtin_holtek_mant12p
+     00a0h              _builtin_holtek_mant2
+     0fb6h              _builtin_holtek_mulsi3_isr00
+     00a4h              _builtin_holtek_prod
+     009bh              _builtin_holtek_signs
+     4500h              _builtin_holtek_udivmodhi4_isr00
+     3678h              _builtin_holtek_udivmodqi4_isr00
+     3415h              _builtin_holtek_udivmodsi4_isr00
+     09a1h              _builtin_holtek_uitod
+     0400h              _builtin_holtek_uitof
+     0a87h              _builtin_holtek_ultod
+     445fh              _charTab
+     02ach              _count
+     0766h              _delay
+     2256h              _delay_ms
+     00fbh              _dis
+     00b1h              _dis_beat
+     00bfh              _dis_nub1
+     0099h              _dis_nub2
+     01fah              _errno
+     14deh              _exp
+     0f84h              _fabs
+     103fh              _frexp
+     7c50h              _frexp2
+     0c01h              _fun_ADCStart
+     0c11h              _fun_ADCStop
+     24c2h              _fun_AFEPoweronInit
+     257fh              _fun_CalOPA1Offset
+     25f3h              _fun_CalOPA2Offset
+     2667h              _fun_CalOPA3Offset
+     26ddh              _fun_CalOPAOffset
+     0d28h              _fun_DACVREFInit
+     2389h              _fun_DACnInit
+     2ac6h              _fun_SineWaveInit
+     0984h              _fun_StripModuleAllOpen
+     07c2h              _fun_StripModuleAllOpen2
+     32e2h              _fun_UART0PowerOnInit
+     33b3h              _fun_UART0WriteTxBufStart
+     32f8h              _fun_UART1PowerOnInit
+     3339h              _fun_UART1WriteTxBufStart
+     3467h              _fun_UART_SendValue
+     00e4h              _fun_UART_SendValue_2
+     3385h              _fun_Uart0StartTx
+     330bh              _fun_Uart1StartTx
+     28e6h              _get_CalCurrentToADC
+     5777h              _get_auto_code
+     5779h              _get_glucose
+     5cbbh              _get_glucose_ctr
+     af80h              _glucose_auto_code
+     0080h              _goto_next_case
+     5024h              _init_Error_Task
+     5037h              _intit_Impedance
+     233bh              _keyinti
+     0191h              _lcd
+     1454h              _ldexp
+     5057h              _load_autoCode_data
+     1100h              _log
+     0002h              _main
+     0440h              _main_AP
+     03a5h              _memmode
+     2997h              _memset
+     ae40h              _number_12
+     1843h              _pow
+     00e3h              _print_DataLen
+     01b5h              _print_double
+     00f8h              _print_long
+     006ch              _print_str
+     0280h              _proportion
+     007ch              _send_gsm_data
+     0fffh              _send_uart_data
+     007bh              _setRssi
+     bf80h              _signature
+     1957h              _sqrt
+     007eh              _starting_gsm
+     5f10h              _strlen
+     5f30h              _strncmp
+     5f6eh              _strstr
+     02cah              _temp
+     714dh              _uart_order
+     00a7h              r104
+     00a9h              r108
+     00abh              r10c
+     00adh              r110
+     00b0h              r114
+     00b2h              r118
+     00b4h              r11c
+     00b6h              r120
+     00bah              r124
+     00bch              r128
+     00beh              r12c
+     00c0h              r130
+     00c2h              r134
+     00c4h              r138
+     00c6h              r13c
+     00a8h              r204
+     00aah              r208
+     00ach              r20c
+     00aeh              r210
+     00b1h              r214
+     00b3h              r218
+     00b5h              r21c
+     00b7h              r220
+     00bbh              r224
+     00bdh              r228
+     00bfh              r22c
+     00c1h              r230
+     00c3h              r234
+     00c5h              r238
+     00c7h              r23c
+     0a81h              r320
+     1487h              r330
+     1482h              r33c
+     148ah              r420
+     1488h              r430
+     1483h              r43c
+     12feh              r520
+     1480h              r530
+     0e98h              r53c
+     12ffh              r620
+     1481h              r630
+     0e99h              r63c
+     008fh              ra
+     00afh              ra10
+     00b8h              ra20
+     00c8h              ra3c
+     0090h              rb
+     00b9h              rb20
+     0091h              rc
+     0092h              rd
+     0093h              re
+     0094h              rf
+     0095h              rg
+     0096h              rh
+     0321h              startup_value_1
+
+     Address            Public by Value
+     0002h              _main
+     0004h              _ISR_0x04_Routine
+     0008h              _ISR_0x08_Routine
+     000ch              _ISR_0x0c_Routine
+     0010h              _ISR_0x10_Routine
+     0014h              _ISR_0x14_Routine
+     0018h              _ISR_0x18_Routine
+     001ch              _ISR_0x1c_Routine
+     0020h              _ISR_0x20_Routine
+     0024h              _ISR_0x24_Routine
+     0028h              _ISR_0x28_Routine
+     002ch              _ISR_0x2c_Routine
+     0030h              _ISR_0x30_Routine
+     0034h              _ISR_0x34_Routine
+     0038h              _ISR_0x38_Routine
+     003ch              _ISR_0x3C_Routine
+     0063h              _Send_data
+     006ch              _print_str
+     007bh              _setRssi
+     007ch              _send_gsm_data
+     007eh              _starting_gsm
+     0080h              _goto_next_case
+     008fh              ra
+     0090h              rb
+     0091h              rc
+     0092h              rd
+     0093h              re
+     0094h              rf
+     0095h              rg
+     0096h              rh
+     0097h              _builtin_holtek_mant1
+     0099h              _dis_nub2
+     009ah              _builtin_holtek_exp1
+     009bh              _builtin_holtek_signs
+     009ch              _builtin_holtek_floatflag
+     009dh              _builtin_holtek_mant12p
+     00a0h              _builtin_holtek_mant2
+     00a3h              _builtin_holtek_exp2
+     00a4h              _builtin_holtek_prod
+     00a7h              r104
+     00a8h              r204
+     00a9h              r108
+     00aah              r208
+     00abh              r10c
+     00ach              r20c
+     00adh              r110
+     00aeh              r210
+     00afh              ra10
+     00b0h              r114
+     00b1h              r214
+     00b1h              _dis_beat
+     00b2h              r118
+     00b3h              r218
+     00b4h              r11c
+     00b5h              r21c
+     00b6h              r120
+     00b7h              r220
+     00b8h              ra20
+     00b9h              rb20
+     00bah              r124
+     00bbh              r224
+     00bch              r128
+     00bdh              r228
+     00beh              r12c
+     00bfh              r22c
+     00bfh              _dis_nub1
+     00c0h              r130
+     00c1h              r230
+     00c2h              r134
+     00c3h              r234
+     00c4h              r138
+     00c5h              r238
+     00c6h              r13c
+     00c7h              r23c
+     00c8h              ra3c
+     00d5h              _Write_EEPROMBuf_2
+     00d7h              _atan2_2
+     00e3h              _print_DataLen
+     00e4h              _fun_UART_SendValue_2
+     00f8h              _print_long
+     00fbh              _dis
+     00fdh              _M_RTC_display
+     00ffh              _M_TaskBuf0
+     0180h              _M_Cbuf0
+     0181h              _Flag2
+     0182h              _M_No_Active_Cnt
+     0184h              _M_TaskBuf1
+     0185h              _Flag6
+     0186h              _Flag1
+     0187h              _M_Error_Task
+     0188h              _Flag4
+     0189h              _M_Task
+     018ah              _M_Days
+     018bh              _M_Month
+     018ch              _M_Minutes
+     018dh              _M_Hour
+     018eh              _M_UART_TxIndex
+     018fh              _M_Cbuf1
+     0190h              _M_Year
+     0191h              _lcd
+     01b5h              _print_double
+     01b5h              _M_UART_RxIndex
+     01b6h              _M_Beep_Cnt
+     01b8h              _M_GM_data_Record
+     01bah              _SDKADCSourceData
+     01c0h              _M_SinGain
+     01c1h              _M_Temperature
+     01c3h              _M_Unit
+     01c4h              _M_GM_data_Record_buf
+     01c6h              _M_UART_TxLength
+     01c7h              _M_GM_Record_current
+     01c9h              _M_Second
+     01cah              _M_GM_data
+     01cch              _FlashTimeFlag
+     01cdh              _Cbuf0
+     01ceh              _M_Alarm4_MIN
+     01cfh              _M_Alarm4_HR
+     01d0h              _M_Alarm3_MIN
+     01d1h              _M_Alarm3_HR
+     01d2h              _M_Alarm2_MIN
+     01d3h              _M_Alarm2_HR
+     01d4h              _M_Alarm1_MIN
+     01d5h              _M_Alarm1_HR
+     01d6h              _M_UART_Tx_ErrorCnt
+     01d7h              _M_UARTRxTimeOut
+     01d8h              _M_Strip_Type
+     01d9h              _M_Lbuf0
+     01ddh              _M_Ibuf0
+     01dfh              _Flag7
+     01e0h              _M_Current
+     01e2h              _M_UART_TxIndex_Old
+     01e3h              _M_Halt_Cnt
+     01f8h              _FlashTimeCon
+     01f9h              _M_Main_cnt
+     01fah              _errno
+     01fch              _M_Impedance
+     0280h              _proportion
+     0288h              _M_BAT_Energy
+     028ah              _M_90daysNumber
+     028ch              _M_60daysNumber
+     028eh              _M_30daysNumber
+     0290h              _M_14daysNumber
+     0292h              _M_7daysNumber
+     0294h              _M_90days_datasum
+     0298h              _M_60days_datasum
+     029ch              _M_30days_datasum
+     02a0h              _M_14days_datasum
+     02a4h              _M_7days_datasum
+     02a8h              _M_Excitation_Offset
+     02a9h              _M_Second_buf
+     02aah              _M_Log
+     02ach              _count
+     02adh              _Flag8
+     02aeh              _M_PageIndex
+     02afh              _M_PageAddress
+     02b1h              _M_28daysNumber
+     02b3h              _M_28days_datasum
+     02b7h              _M_GM_SendRecord
+     02b9h              _Ibuf0
+     02bbh              _M_SinFreq
+     02bch              _M_DropCurrent_Adc
+     02beh              _M_StripUsedCurrent_Adc
+     02c0h              _M_TriggerCurrent_Adc
+     02c2h              _M_Avg_16bit_result
+     02c4h              _M_Main_Cal_Cnt
+     02c5h              _M_Ibuf2
+     02c7h              _M_Ibuf1
+     02c9h              _M_ErrorCount
+     02cah              _temp
+     02cbh              _Flag5
+     02cch              _Flag3
+     02cdh              _M_Cal_100K_Adc
+     02cfh              _M_Cal_10K_Adc
+     02d1h              _M_HCT_ADCData
+     02d9h              _M_ImpedanceBuf
+     02e1h              _M_Theta
+     02e5h              _Command
+     02e6h              _ReceiveFlag
+     02e7h              _M_BackCurrent
+     02e9h              _M_CurrentX10
+     02ebh              _M_OPA_Offset
+     02ech              _M_Excitation_Voltage
+     02eeh              _M_UartInsertCnt
+     02efh              _M_Length
+     02f0h              _M_BeepMode
+     02f1h              _M_GM_Range_Low
+     02f3h              _M_GM_Range_Hi
+     02f5h              _M_DaysLimit
+     02f6h              _M_Daco2H
+     02f7h              _M_Daco2L
+     02f8h              _M_Daco1H
+     02f9h              _M_Daco1L
+     02fah              _M_Main_Cnt_6s
+     02fbh              _M_Main_Cal
+     02fch              _M_KeyDebounce
+     02fdh              _M_Hold_cnt
+     02feh              _M_Inc_Cnt
+     02ffh              _M_DCTurnOn
+     0321h              startup_value_1
+     0380h              _M_MSKey_Hold_CNT
+     0382h              _M_SKey_Hold_CNT
+     0384h              _M_MKey_Hold_CNT
+     0386h              _M_DCTurnOff
+     0387h              _M_ACTurnOn
+     0388h              _M_LogCount_Switch
+     038ah              _M_LogCount
+     038ch              _M_WaitCount
+     038eh              _M_FlashPage
+     038fh              _Project_Sequence
+     0393h              _buf
+     039bh              _Address
+     039dh              _Ibuf1
+     039fh              _Lbuf1
+     03a3h              _bdmode
+     03a5h              _memmode
+     0400h              _builtin_holtek_uitof
+     0440h              _main_AP
+     06c2h              _Uart1_funinterrupt
+     0720h              _Spi_funinterrupt
+     0727h              _Sim_funinterrupt
+     072eh              _Int32_funinterrupt
+     0735h              _Int2_funinterrupt
+     073ch              _TimeBase1_funinterrupt
+     0743h              _Ovp_funinterrupt
+     074ah              _Multi2_funinterrupt
+     0751h              _Multi1_funinterrupt
+     0758h              _Int1_funinterrupt
+     075fh              _Int0_funinterrupt
+     0766h              _delay
+     0770h              _Adc_funinterrupt
+     0791h              _Multi0_funinterrupt
+     07b8h              __DELAYX6
+     07b9h              __DELAYX5
+     07bah              __DELAYX4
+     07bbh              __DELAYX3
+     07bch              __DELAYX2
+     07bdh              __DELAYX1
+     07beh              __DELAYX0
+     07c2h              _fun_StripModuleAllOpen2
+     07cdh              _TimeBase0_funinterrupt
+     08b8h              _Short_beep
+     08cdh              _Uart0_funinterrupt
+     092ch              _builtin_holtek_dtdecode2
+     0937h              _builtin_holtek_dtdecode1
+     093fh              _builtin_holtek_dtzero
+     0942h              _builtin_holtek_dtzero1
+     0944h              _builtin_holtek_dtmul
+     0984h              _fun_StripModuleAllOpen
+     0998h              _builtin_holtek_itod
+     09a1h              _builtin_holtek_uitod
+     09a6h              _builtin_holtek_dtsub
+     09a8h              _builtin_holtek_dtadd
+     09e4h              _builtin_holtek_dtdiv
+     0a38h              _builtin_holtek_dtol
+     0a78h              _builtin_holtek_ltod
+     0a81h              r320
+     0a84h              _Flash_Store_PageErase_Process_2
+     0a87h              _builtin_holtek_ultod
+     0a8ah              _InitADC_Op2n_Avss
+     0ab5h              _builtin_holtek_ftdecode2
+     0abfh              _builtin_holtek_ftdecode1
+     0ac7h              _builtin_holtek_ftzero
+     0ac9h              _builtin_holtek_ftzero1
+     0acbh              _builtin_holtek_ftdiv
+     0afdh              _builtin_holtek_ftmul
+     0b32h              _builtin_holtek_ftsub
+     0b34h              _builtin_holtek_ftadd
+     0b66h              _builtin_holtek_ftol
+     0b91h              _builtin_holtek_dtnorm
+     0bc5h              _builtin_holtek_ftnorm
+     0bf4h              _builtin_holtek_dtinf
+     0bfbh              _builtin_holtek_ftinf
+     0c01h              _fun_ADCStart
+     0c11h              _fun_ADCStop
+     0c2ah              _InitADC_Op1n1_Op1s1
+     0c51h              _InitADC_Op1n2_Op1s0
+     0c7ah              _InitADC_Op1n1_Avss
+     0ca6h              _InitADC_Op1n2_Avss
+     0ccbh              _InitADC_Op2n_Op2o
+     0d28h              _fun_DACVREFInit
+     0d32h              _Measurement_Temp
+     0e50h              _Measurement_Battery
+     0e98h              r53c
+     0e99h              r63c
+     0eb1h              _Measurement_Daco
+     0ef5h              _Measurement_Op1n1_Op1s1
+     0f1dh              _Set_HCT_Adc_Channel
+     0f84h              _fabs
+     0fb6h              _builtin_holtek_mulsi3_isr00
+     0fd5h              _Lcd_Bat
+     0fdeh              _BeepReset
+     0ffbh              _Initial_SysStm
+     0fffh              _send_uart_data
+     1000h              _Crom2PromNext
+     1003h              _Crom2Prom
+     103fh              _frexp
+     1100h              _log
+     1282h              _Flash_Store_Write_Process_2
+     12feh              r520
+     12ffh              r620
+     1454h              _ldexp
+     1480h              r530
+     1481h              r630
+     1482h              r33c
+     1483h              r43c
+     1487h              r330
+     1488h              r430
+     148ah              r420
+     14d6h              _Impedance_Compute_2
+     14deh              _exp
+     1843h              _pow
+     1957h              _sqrt
+     1a01h              _Impedance_Compute
+     1bb8h              _atan
+     1f89h              _Current_to_AD_Convert
+     1ffbh              _Initial_SysLvr
+     2000h              _atan2
+     2145h              _ADCtoCurrent_Convert
+     21d4h              _R103KT_TABLE
+     2207h              _BatteryCheckProcess
+     2256h              _delay_ms
+     227eh              _BeepProcess
+     233bh              _keyinti
+     234eh              _Is_strip_in_sleep_wakeup
+     2372h              _LeapYear_TABLE
+     237dh              _Month_TABLE2
+     2383h              _Month_TABLE1
+     2389h              _fun_DACnInit
+     23bdh              _Read_EEPROMBuf
+     23eah              _Write_EEPROMBuf
+     241bh              _Load_VrefDaco_Vaule
+     24b9h              _Clr_MinString
+     24c2h              _fun_AFEPoweronInit
+     24c5h              _Read_EEPROMByte
+     24e3h              _Write_EEPROMByte
+     251ch              _SystemRAM_clear
+     2532h              _Initial_SysClock
+     2546h              _Initial_SysLcd
+     2550h              _Initial_SysPTM0
+     2559h              _Initial_SysTimebase
+     255fh              _Initial_SysInt
+     256eh              _Initial_SysLvd
+     2571h              _Initial_SysWdt
+     2574h              _Initial_SysAdc
+     257fh              _fun_CalOPA1Offset
+     25f3h              _fun_CalOPA2Offset
+     2667h              _fun_CalOPA3Offset
+     26ddh              _fun_CalOPAOffset
+     26e1h              _Initial_SysGpio
+     272ch              _Initnal_StmCmp_Lirc_16K
+     273ah              _Initnal_StmCmp_Hirc_8K
+     2748h              _Initial_Sys
+     2757h              _Initial_HaltSys
+     275dh              _Load_System_Vaule
+     28e6h              _get_CalCurrentToADC
+     295bh              _Load_StripMeas_Vaule
+     297ah              _Save_RtcTime
+     2997h              _memset
+     29b2h              _Load_RtcTime_Vaule
+     29eeh              _ScanKey
+     2ac6h              _fun_SineWaveInit
+     31e2h              _SinData_4
+     3202h              _SinData_8
+     3222h              _SinData_12
+     3242h              _SinData_16
+     3262h              _SinData_20
+     3282h              _SinData_24
+     32a2h              _SinData_28
+     32c2h              _SinData_32
+     32e2h              _fun_UART0PowerOnInit
+     32f8h              _fun_UART1PowerOnInit
+     330bh              _fun_Uart1StartTx
+     3339h              _fun_UART1WriteTxBufStart
+     3385h              _fun_Uart0StartTx
+     33b3h              _fun_UART0WriteTxBufStart
+     3401h              _Table_Bootload
+     3406h              _builtin_holtek_divmodsi4_isr00
+     3415h              _builtin_holtek_udivmodsi4_isr00
+     3467h              _fun_UART_SendValue
+     3521h              _PwrOnMode
+     359eh              _Show_BigString
+     35fbh              _LCD_Clear
+     3604h              _OffMoedProcess
+     3678h              _builtin_holtek_udivmodqi4_isr00
+     3691h              _Lcd_Clock_Process
+     3711h              _Lcd_Month_Day_Process
+     379fh              _Alarm_Check_Process
+     3892h              _ChargerProcess
+     38deh              _LCD_Par_init
+     38e6h              _Drv_Enable_FWEN
+     390bh              _Drv_ReadFlashRom
+     3933h              _Drv_Erase_Page
+     3979h              _Drv_WriteFlashRom
+     3a10h              _LCD_BitSetOut
+     3af0h              _LCD_Clear_Buff
+     3b08h              _Clr_BigString
+     3b15h              _Show_MonthDayString
+     3b90h              _Clr_MonthDayString
+     3ba1h              _Clr_MonthString
+     3baah              _Clr_DayString
+     3bb3h              _Show_HourMinString
+     3c2eh              _Clr_HourMinString
+     3c3fh              _Clr_HourString
+     3c51h              _ShowDec_BigNum
+     3d32h              _ShowDec_BigNum_for_mem
+     3dd5h              _ShowDec_MonthDay
+     3ea3h              _ShowDec_HourMin
+     3f71h              _ShowDec_MeasDownCount
+     3f8ah              _WriteAll_LCD
+     3fb2h              _LCD_Clear1
+     3fc7h              _ReadAll_LCD
+     3fefh              _Lcd_Unit
+     3ffch              _Clr_Bat
+     4000h              _LCD_ScanOut1
+     40e7h              _LCD_ScanOut
+     4179h              _LCD_Seg_TestScan
+     420dh              _LCD_ScanIn
+     42b3h              _Lcd_Year_Process
+     42f5h              _Clr_Unit
+     42fah              _Lcd_ControlOption
+     445fh              _charTab
+     44dfh              _HexTab
+     44efh              _AsciiTab
+     44f7h              _builtin_holtek_divmodhi4_isr00
+     4500h              _builtin_holtek_udivmodhi4_isr00
+     452eh              _Lcd_Glucose
+     45d5h              _Lcd_ShowHW
+     4670h              _Lcd_ShowFW
+     4707h              _Lcd_ShowAvgNum
+     47abh              _Lcd_ShowAvgDay
+     480ah              _Lcd_ShowC1
+     4856h              _Lcd_ShowC2
+     4898h              _Lcd_ShowRecordLength
+     4931h              _Lcd_Display_Tes
+     4941h              _WritePage_flash
+     4972h              _ReadPage_flash
+     49d1h              _Flash_Store_Read_Process
+     49fbh              _Flash_Store_Write_Process
+     4a97h              _Flash_Store_PageErase_Process
+     4b00h              _Significant_Checksum
+     4ba2h              _Store_SetVauletoFlash
+     4d65h              _DateToSecond
+     4e8ch              _Store_measurement_data
+     5024h              _init_Error_Task
+     5037h              _intit_Impedance
+     5057h              _load_autoCode_data
+     5777h              _get_auto_code
+     5779h              _get_glucose
+     5cbbh              _get_glucose_ctr
+     5f10h              _strlen
+     5f30h              _strncmp
+     5f6eh              _strstr
+     5fc3h              _abs
+     5fe2h              _Table_OK
+     5fe3h              _Table_BootLoad
+     5fe8h              _Table_mmol
+     5fech              _Table_mgdl
+     5ff0h              _Table_Lo
+     5ff2h              _Table_Hi
+     5ff4h              _Table_Glucose
+     6000h              _Normal_Measurement_Mode
+     714dh              _uart_order
+     71cfh              _TestingMode
+     79a4h              _Error_meassage_process
+     7aadh              _SecondToDate
+     7c50h              _frexp2
+     8000h              _MemoryMode
+     8896h              _RTC_Mode_Setting_Process
+     ae00h              _SerialNumber_Table
+     ae40h              _number_12
+     ae80h              _Significant_Table
+     af80h              _glucose_auto_code
+     b400h              _Exampledata0
+     bf80h              _signature
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     1e2ah    94%
+     01h       2000h     1febh    99%
+     02h       2000h     1ff9h    99%
+     03h       2000h     1c8ah    89%
+     04h       2000h     1183h    54%
+     05h       2000h     0937h    28%
+     Total     c000h     9552h    77%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0080h    100%
+     01h       0080h     0080h    100%
+     02h       0080h     0080h    100%
+     03h       0080h     0027h    30%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0080h    100%
+     07h       0080h     0080h    100%
+     08h       0080h     0050h    62%
+     09h       0080h     0028h    31%
+     0ah       0080h     001ch    21%
+     0bh       0080h     0080h    100%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0069h    82%
+     0eh       0080h     0029h    32%
+     0fh       0080h     0007h    5%
+     10h       0080h     006eh    85%
+     11h       0080h     0000h    0%
+     12h       0080h     000fh    11%
+     13h       0080h     0000h    0%
+     14h       0080h     0078h    93%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0080h    100%
+     1fh       0080h     0080h    100%
+     Total     1000h     0649h    39%
+
+Use Stack Count
+_main: 8
+_InitADC_Op1n2_Op1s0: 1
+_InitADC_Op1n1_Avss: 1
+_InitADC_Op1n2_Avss: 1
+_InitADC_Op2n_Op2o: 2
+_InitADC_Op2n_Avss: 1
+_atan2: 3
+_Current_to_AD_Convert: 2
+_Short_beep: 1
+_Is_strip_in_sleep_wakeup: 1
+_Int0_funinterrupt: 0
+_Int1_funinterrupt: 0
+_Adc_funinterrupt: 0
+_Multi0_funinterrupt: 0
+_Multi1_funinterrupt: 0
+_Multi2_funinterrupt: 0
+_Ovp_funinterrupt: 0
+_TimeBase0_funinterrupt: 1
+_TimeBase1_funinterrupt: 0
+_Int2_funinterrupt: 0
+_Int32_funinterrupt: 0
+_Uart0_funinterrupt: 1
+_Sim_funinterrupt: 0
+_Spi_funinterrupt: 0
+_Uart1_funinterrupt: 1
+_fun_UART0WriteTxBufStart: 2
+_fun_UART_SendValue: 3
+_Show_MonthDayString: 1
+_Show_HourMinString: 1
+_ShowDec_BigNum_for_mem: 1
+_ShowDec_MonthDay: 1
+_ShowDec_HourMin: 1
+_ShowDec_MeasDownCount: 2
+_LCD_Seg_TestScan: 2
+_LCD_ScanIn: 2
+_Lcd_Year_Process: 1
+_Lcd_ShowHW: 1
+_Lcd_ShowFW: 1
+_Lcd_ShowAvgDay: 1
+_Lcd_ShowC1: 1
+_Lcd_ShowC2: 1
+_Lcd_ShowRecordLength: 1
+_get_auto_code: 3
+_print_double: 2
+_print_DataLen: 1
+_dis_nub1: 3
+
+Call Tree
+    @dummy
+        _main (0)
+            _main_AP (1)
+                _Initial_SysClock (2)
+                _keyinti (2)
+                _delay (2)
+                _Initial_Sys (2)
+                    _Initial_SysGpio (3)
+                    _Initial_SysLcd (3)
+                    _Initial_SysInt (3)
+                    _Initial_SysTimebase (3)
+                    _Initial_SysStm (3)
+                    _Initial_SysPTM0 (3)
+                    _Initial_SysAdc (3)
+                _SystemRAM_clear (2)
+                _LCD_Clear (2)
+                    _LCD_Clear_Buff (3)
+                    _LCD_ScanOut (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _WriteAll_LCD (4)
+                            _Crom2Prom (5)
+                _LCD_Par_init (2)
+                _Load_System_Vaule (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                _Load_VrefDaco_Vaule (2)
+                    _Read_EEPROMBuf (3)
+                        _Read_EEPROMByte (4)
+                    _Crom2Prom (3)
+                    _Write_EEPROMBuf (3)
+                        _Crom2Prom (4)
+                        _Write_EEPROMByte (4)
+                            _Read_EEPROMByte (5)
+                _Load_StripMeas_Vaule (2)
+                    _get_CalCurrentToADC (3)
+                        _builtin_holtek_uitof (4)
+                        _builtin_holtek_ftdiv (4)
+                            _builtin_holtek_ftdecode (5)
+                        _builtin_holtek_ftmul (4)
+                            _builtin_holtek_ftdecode (5)
+                        _builtin_holtek_ftsubadd (4)
+                            _builtin_holtek_ftdecode (5)
+                        _builtin_holtek_ftol (4)
+                            _builtin_holtek_ftdecode (5)
+                _Load_RtcTime_Vaule (2)
+                    _memset (3)
+                    _Read_EEPROMBuf (3)
+                        _Read_EEPROMByte (4)
+                    _Save_RtcTime (3)
+                        _Write_EEPROMBuf (4)
+                            _Crom2Prom (5)
+                            _Write_EEPROMByte (5)
+                                _Read_EEPROMByte (6)
+                _Read_EEPROMBuf (2)
+                    _Read_EEPROMByte (3)
+                _fun_AFEPoweronInit (2)
+                _fun_CalOPAOffset (2)
+                    _fun_CalOPA1Offset (3)
+                        __DELAYX (4)
+                    _fun_CalOPA2Offset (3)
+                        __DELAYX (4)
+                    _fun_CalOPA3Offset (3)
+                        __DELAYX (4)
+                _LCD_ScanOut1 (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _WriteAll_LCD (3)
+                        _Crom2Prom (4)
+                _ScanKey (2)
+                _BeepProcess (2)
+                _BatteryCheckProcess (2)
+                    _Measurement_Battery (3)
+                        _fun_DACVREFInit (4)
+                        __DELAYX (4)
+                        _fun_ADCStart (4)
+                        _fun_ADCStop (4)
+                    _Lcd_Bat (3)
+                _LCD_ScanOut (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _WriteAll_LCD (3)
+                        _Crom2Prom (4)
+                _ChargerProcess (2)
+                    _Lcd_Bat (3)
+                    _LCD_Clear (3)
+                        _LCD_Clear_Buff (4)
+                        _LCD_ScanOut (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _WriteAll_LCD (5)
+                                _Crom2Prom (6)
+                _PwrOnMode (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                _Normal_Measurement_Mode (2)
+                    _LCD_Clear (3)
+                        _LCD_Clear_Buff (4)
+                        _LCD_ScanOut (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _WriteAll_LCD (5)
+                                _Crom2Prom (6)
+                    _memset (3)
+                    _Load_VrefDaco_Vaule (3)
+                        _Read_EEPROMBuf (4)
+                            _Read_EEPROMByte (5)
+                        _Crom2Prom (4)
+                        _Write_EEPROMBuf (4)
+                            _Crom2Prom (5)
+                            _Write_EEPROMByte (5)
+                                _Read_EEPROMByte (6)
+                    _fun_UART0PowerOnInit (3)
+                    _fun_DACVREFInit (3)
+                    _fun_DACnInit (3)
+                    _fun_CalOPA1Offset (3)
+                        __DELAYX (4)
+                    _fun_CalOPA2Offset (3)
+                        __DELAYX (4)
+                    _fun_CalOPA3Offset (3)
+                        __DELAYX (4)
+                    _init_Error_Task (3)
+                        _LCD_Clear (4)
+                            _LCD_Clear_Buff (5)
+                            _LCD_ScanOut (5)
+                                _Crom2Prom (6)
+                                _Crom2Prom (6)
+                                _WriteAll_LCD (6)
+                                    _Crom2Prom (7)
+                    _load_autoCode_data (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _builtin_holtek_dtol (4)
+                            _builtin_holtek_dtdecode (5)
+                    _Measurement_Daco (3)
+                        _fun_DACVREFInit (4)
+                        _fun_ADCStart (4)
+                        _fun_ADCStop (4)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _Measurement_Op1n1_Op1s1 (3)
+                        _InitADC_Op1n1_Op1s1 (4)
+                            _fun_StripModuleAllOpen (5)
+                        _fun_ADCStart (4)
+                        _fun_ADCStop (4)
+                    _fun_ADCStart (3)
+                    _ADCtoCurrent_Convert (3)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                        _builtin_holtek_ltod (4)
+                        _builtin_holtek_dtmul (4)
+                            _builtin_holtek_dtdecode (5)
+                        _builtin_holtek_dtdiv (4)
+                            _builtin_holtek_dtdecode (5)
+                    _builtin_holtek_dtol (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_uitod (3)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _fun_StripModuleAllOpen2 (3)
+                        _fun_StripModuleAllOpen (4)
+                    _Measurement_Temp (3)
+                        _fun_DACVREFInit (4)
+                        __DELAYX (4)
+                        _fun_ADCStart (4)
+                        _fun_ADCStop (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _LCD_Clear_Buff (3)
+                    _ShowDec_BigNum (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _LCD_Clear1 (3)
+                        _LCD_Clear_Buff (4)
+                        _memset (4)
+                        _WriteAll_LCD (4)
+                            _Crom2Prom (5)
+                    _dis_beat (3)
+                        _Lcd_Bat (4)
+                    _delay (3)
+                    _Lcd_Unit (3)
+                    _LCD_BitSetOut (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Lcd_Month_Day_Process (3)
+                        _Load_RtcTime_Vaule (4)
+                            _memset (5)
+                            _Read_EEPROMBuf (5)
+                                _Read_EEPROMByte (6)
+                            _Save_RtcTime (5)
+                                _Write_EEPROMBuf (6)
+                                    _Crom2Prom (7)
+                                    _Write_EEPROMByte (7)
+                                        _Read_EEPROMByte (8)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Lcd_Clock_Process (3)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _intit_Impedance (3)
+                        _fun_StripModuleAllOpen (4)
+                        _fun_SineWaveInit (4)
+                            _builtin_holtek_uitof (5)
+                            _builtin_holtek_dtmul (5)
+                                _builtin_holtek_dtdecode (6)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _builtin_holtek_uitod (5)
+                            _builtin_holtek_dtol (5)
+                                _builtin_holtek_dtdecode (6)
+                    _Set_HCT_Adc_Channel (3)
+                        _fun_ADCStop (4)
+                        _fun_ADCStart (4)
+                    _dis_nub2 (3)
+                        _Crom2Prom (4)
+                    _builtin_holtek_divmodhi4_isr00 (3)
+                    _fun_ADCStop (3)
+                    _fun_StripModuleAllOpen (3)
+                    _InitADC_Op1n1_Op1s1 (3)
+                        _fun_StripModuleAllOpen (4)
+                    _builtin_holtek_itod (3)
+                    _builtin_holtek_dtdiv (3)
+                        _builtin_holtek_dtdecode (4)
+                    _Impedance_Compute (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _builtin_holtek_itod (4)
+                        _pow (4)
+                            _builtin_holtek_dtsubadd (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_dtol (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_ultod (5)
+                            _log (5)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _frexp (6)
+                                    _builtin_holtek_dtsubadd (7)
+                                        _builtin_holtek_dtdecode (8)
+                                    _builtin_holtek_dtmul (7)
+                                        _builtin_holtek_dtdecode (8)
+                                    _builtin_holtek_itod (7)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtdiv (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtmul (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_itod (6)
+                            _builtin_holtek_dtmul (5)
+                                _builtin_holtek_dtdecode (6)
+                            _exp (5)
+                                _fabs (6)
+                                    _builtin_holtek_dtsubadd (7)
+                                        _builtin_holtek_dtdecode (8)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtmul (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtol (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_itod (6)
+                                _builtin_holtek_dtdiv (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _ldexp (6)
+                                    _builtin_holtek_dtsubadd (7)
+                                        _builtin_holtek_dtdecode (8)
+                                    _builtin_holtek_dtmul (7)
+                                        _builtin_holtek_dtdecode (8)
+                        _builtin_holtek_dtsubadd (4)
+                            _builtin_holtek_dtdecode (5)
+                        _sqrt (4)
+                            _builtin_holtek_dtsubadd (5)
+                                _builtin_holtek_dtdecode (6)
+                            _frexp2 (5)
+                            _builtin_holtek_dtdiv (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_dtsubadd (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_dtmul (5)
+                                _builtin_holtek_dtdecode (6)
+                        _builtin_holtek_dtdiv (4)
+                            _builtin_holtek_dtdecode (5)
+                        _builtin_holtek_dtmul (4)
+                            _builtin_holtek_dtdecode (5)
+                    _get_glucose_ctr (3)
+                        _builtin_holtek_dtmul (4)
+                            _builtin_holtek_dtdecode (5)
+                        _builtin_holtek_dtsubadd (4)
+                            _builtin_holtek_dtdecode (5)
+                    _get_glucose (3)
+                        _builtin_holtek_dtmul (4)
+                            _builtin_holtek_dtdecode (5)
+                        _builtin_holtek_dtsubadd (4)
+                            _builtin_holtek_dtdecode (5)
+                        _builtin_holtek_dtdiv (4)
+                            _builtin_holtek_dtdecode (5)
+                        _builtin_holtek_dtsubadd (4)
+                            _builtin_holtek_dtdecode (5)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _Lcd_Glucose (3)
+                        _Lcd_Unit (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _ShowDec_BigNum (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                        _Show_BigString (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                    _LCD_ScanOut (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _WriteAll_LCD (4)
+                            _Crom2Prom (5)
+                    _Store_measurement_data (3)
+                        _Store_SetVauletoFlash (4)
+                            _ReadPage_flash (5)
+                                _Drv_ReadFlashRom (6)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _Significant_Checksum (5)
+                                _Crom2Prom (6)
+                                _Crom2Prom (6)
+                            _WritePage_flash (5)
+                                _Drv_Erase_Page (6)
+                                    _Drv_Enable_FWEN (7)
+                                    _Drv_ReadFlashRom (7)
+                                _Drv_WriteFlashRom (6)
+                                    _Drv_Enable_FWEN (7)
+                                    _Crom2Prom (7)
+                                    _Crom2Prom (7)
+                                    _Drv_ReadFlashRom (7)
+                        _ReadPage_flash (4)
+                            _Drv_ReadFlashRom (5)
+                        _DateToSecond (4)
+                            _Crom2Prom (5)
+                            _builtin_holtek_mulsi3_isr00 (5)
+                        _Crom2Prom (4)
+                        _WritePage_flash (4)
+                            _Drv_Erase_Page (5)
+                                _Drv_Enable_FWEN (6)
+                                _Drv_ReadFlashRom (6)
+                            _Drv_WriteFlashRom (5)
+                                _Drv_Enable_FWEN (6)
+                                _Crom2Prom (6)
+                                _Crom2Prom (6)
+                                _Drv_ReadFlashRom (6)
+                    _Save_RtcTime (3)
+                        _Write_EEPROMBuf (4)
+                            _Crom2Prom (5)
+                            _Write_EEPROMByte (5)
+                                _Read_EEPROMByte (6)
+                    _goto_next_case (3)
+                        _memset (4)
+                    _starting_gsm (3)
+                    _send_gsm_data (3)
+                    _setRssi (3)
+                    _print_str (3)
+                        _Send_data (4)
+                        _Crom2Prom (4)
+                    _strstr (3)
+                        _Crom2Prom (4)
+                        _strlen (4)
+                            _Crom2Prom (5)
+                        _strncmp (4)
+                            _Crom2Prom (5)
+                    _BatteryCheckProcess (3)
+                        _Measurement_Battery (4)
+                            _fun_DACVREFInit (5)
+                            __DELAYX (5)
+                            _fun_ADCStart (5)
+                            _fun_ADCStop (5)
+                        _Lcd_Bat (4)
+                _MemoryMode (2)
+                    _LCD_Clear (3)
+                        _LCD_Clear_Buff (4)
+                        _LCD_ScanOut (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _WriteAll_LCD (5)
+                                _Crom2Prom (6)
+                    _DateToSecond (3)
+                        _Crom2Prom (4)
+                        _builtin_holtek_mulsi3_isr00 (4)
+                    _Flash_Store_Read_Process (3)
+                    _Lcd_Clock_Process (3)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Lcd_Month_Day_Process (3)
+                        _Load_RtcTime_Vaule (4)
+                            _memset (5)
+                            _Read_EEPROMBuf (5)
+                                _Read_EEPROMByte (6)
+                            _Save_RtcTime (5)
+                                _Write_EEPROMBuf (6)
+                                    _Crom2Prom (7)
+                                    _Write_EEPROMByte (7)
+                                        _Read_EEPROMByte (8)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _LCD_Clear_Buff (3)
+                    _Lcd_ShowAvgNum (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Lcd_Glucose (3)
+                        _Lcd_Unit (4)
+                        _builtin_holtek_divmodhi4_isr00 (4)
+                        _ShowDec_BigNum (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                        _Show_BigString (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                    _SecondToDate (3)
+                        _Crom2Prom (4)
+                    _Lcd_Bat (3)
+                    _keyinti (3)
+                    _Show_BigString (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Clr_BigString (3)
+                    _LCD_ScanOut (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _WriteAll_LCD (4)
+                            _Crom2Prom (5)
+                    _builtin_holtek_mulsi3_isr00 (3)
+                    _builtin_holtek_divmodsi4_isr00 (3)
+                    _LCD_BitSetOut (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Store_SetVauletoFlash (3)
+                        _ReadPage_flash (4)
+                            _Drv_ReadFlashRom (5)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _Significant_Checksum (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                        _WritePage_flash (4)
+                            _Drv_Erase_Page (5)
+                                _Drv_Enable_FWEN (6)
+                                _Drv_ReadFlashRom (6)
+                            _Drv_WriteFlashRom (5)
+                                _Drv_Enable_FWEN (6)
+                                _Crom2Prom (6)
+                                _Crom2Prom (6)
+                                _Drv_ReadFlashRom (6)
+                    _Write_EEPROMBuf (3)
+                        _Crom2Prom (4)
+                        _Write_EEPROMByte (4)
+                            _Read_EEPROMByte (5)
+                _Error_meassage_process (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                    _Show_BigString (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                _RTC_Mode_Setting_Process (2)
+                    _LCD_Clear (3)
+                        _LCD_Clear_Buff (4)
+                        _LCD_ScanOut (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _WriteAll_LCD (5)
+                                _Crom2Prom (6)
+                    _ShowDec_BigNum (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Lcd_Month_Day_Process (3)
+                        _Load_RtcTime_Vaule (4)
+                            _memset (5)
+                            _Read_EEPROMBuf (5)
+                                _Read_EEPROMByte (6)
+                            _Save_RtcTime (5)
+                                _Write_EEPROMBuf (6)
+                                    _Crom2Prom (7)
+                                    _Write_EEPROMByte (7)
+                                        _Read_EEPROMByte (8)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Clr_BigString (3)
+                    _Crom2Prom (3)
+                    _Clr_MonthString (3)
+                    _Clr_DayString (3)
+                    _Show_BigString (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Lcd_Clock_Process (3)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Clr_HourString (3)
+                    _Clr_MinString (3)
+                    _Lcd_Unit (3)
+                    _Store_SetVauletoFlash (3)
+                        _ReadPage_flash (4)
+                            _Drv_ReadFlashRom (5)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _Significant_Checksum (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                        _WritePage_flash (4)
+                            _Drv_Erase_Page (5)
+                                _Drv_Enable_FWEN (6)
+                                _Drv_ReadFlashRom (6)
+                            _Drv_WriteFlashRom (5)
+                                _Drv_Enable_FWEN (6)
+                                _Crom2Prom (6)
+                                _Crom2Prom (6)
+                                _Drv_ReadFlashRom (6)
+                    _Write_EEPROMBuf (3)
+                        _Crom2Prom (4)
+                        _Write_EEPROMByte (4)
+                            _Read_EEPROMByte (5)
+                _Alarm_Check_Process (2)
+                    _Lcd_Clock_Process (3)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _Lcd_Month_Day_Process (3)
+                        _Load_RtcTime_Vaule (4)
+                            _memset (5)
+                            _Read_EEPROMBuf (5)
+                                _Read_EEPROMByte (6)
+                            _Save_RtcTime (5)
+                                _Write_EEPROMBuf (6)
+                                    _Crom2Prom (7)
+                                    _Write_EEPROMByte (7)
+                                        _Read_EEPROMByte (8)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _LCD_Clear (3)
+                        _LCD_Clear_Buff (4)
+                        _LCD_ScanOut (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _WriteAll_LCD (5)
+                                _Crom2Prom (6)
+                _TestingMode (2)
+                    _Load_VrefDaco_Vaule (3)
+                        _Read_EEPROMBuf (4)
+                            _Read_EEPROMByte (5)
+                        _Crom2Prom (4)
+                        _Write_EEPROMBuf (4)
+                            _Crom2Prom (5)
+                            _Write_EEPROMByte (5)
+                                _Read_EEPROMByte (6)
+                    _fun_UART0PowerOnInit (3)
+                    _fun_DACVREFInit (3)
+                    _fun_DACnInit (3)
+                    _fun_CalOPA1Offset (3)
+                        __DELAYX (4)
+                    _fun_CalOPA2Offset (3)
+                        __DELAYX (4)
+                    _fun_CalOPA3Offset (3)
+                        __DELAYX (4)
+                    _LCD_Clear (3)
+                        _LCD_Clear_Buff (4)
+                        _LCD_ScanOut (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _WriteAll_LCD (5)
+                                _Crom2Prom (6)
+                    _Measurement_Op1n1_Op1s1 (3)
+                        _InitADC_Op1n1_Op1s1 (4)
+                            _fun_StripModuleAllOpen (5)
+                        _fun_ADCStart (4)
+                        _fun_ADCStop (4)
+                    _memset (3)
+                    _Show_BigString (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _builtin_holtek_divmodqi4_isr00 (3)
+                    _Lcd_Clock_Process (3)
+                        _builtin_holtek_divmodqi4_isr00 (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _uart_order (3)
+                        _Crom2Prom (4)
+                    _Crom2Prom (3)
+                    _fun_ADCStop (3)
+                    _fun_StripModuleAllOpen (3)
+                    _InitADC_Op1n1_Op1s1 (3)
+                        _fun_StripModuleAllOpen (4)
+                    _fun_ADCStart (3)
+                    _Crom2Prom (3)
+                    _builtin_holtek_itod (3)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtmul (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_dtol (3)
+                        _builtin_holtek_dtdecode (4)
+                    _builtin_holtek_uitod (3)
+                    _builtin_holtek_dtdiv (3)
+                        _builtin_holtek_dtdecode (4)
+                    _Measurement_Temp (3)
+                        _fun_DACVREFInit (4)
+                        __DELAYX (4)
+                        _fun_ADCStart (4)
+                        _fun_ADCStop (4)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _LCD_Clear_Buff (3)
+                    _abs (3)
+                    _ShowDec_BigNum (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _intit_Impedance (3)
+                        _fun_StripModuleAllOpen (4)
+                        _fun_SineWaveInit (4)
+                            _builtin_holtek_uitof (5)
+                            _builtin_holtek_dtmul (5)
+                                _builtin_holtek_dtdecode (6)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _builtin_holtek_uitod (5)
+                            _builtin_holtek_dtol (5)
+                                _builtin_holtek_dtdecode (6)
+                    _Set_HCT_Adc_Channel (3)
+                        _fun_ADCStop (4)
+                        _fun_ADCStart (4)
+                    _Impedance_Compute (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                        _builtin_holtek_itod (4)
+                        _pow (4)
+                            _builtin_holtek_dtsubadd (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_dtol (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_ultod (5)
+                            _log (5)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _frexp (6)
+                                    _builtin_holtek_dtsubadd (7)
+                                        _builtin_holtek_dtdecode (8)
+                                    _builtin_holtek_dtmul (7)
+                                        _builtin_holtek_dtdecode (8)
+                                    _builtin_holtek_itod (7)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtdiv (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtmul (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_itod (6)
+                            _builtin_holtek_dtmul (5)
+                                _builtin_holtek_dtdecode (6)
+                            _exp (5)
+                                _fabs (6)
+                                    _builtin_holtek_dtsubadd (7)
+                                        _builtin_holtek_dtdecode (8)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtmul (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtsubadd (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_dtol (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _builtin_holtek_itod (6)
+                                _builtin_holtek_dtdiv (6)
+                                    _builtin_holtek_dtdecode (7)
+                                _ldexp (6)
+                                    _builtin_holtek_dtsubadd (7)
+                                        _builtin_holtek_dtdecode (8)
+                                    _builtin_holtek_dtmul (7)
+                                        _builtin_holtek_dtdecode (8)
+                        _builtin_holtek_dtsubadd (4)
+                            _builtin_holtek_dtdecode (5)
+                        _sqrt (4)
+                            _builtin_holtek_dtsubadd (5)
+                                _builtin_holtek_dtdecode (6)
+                            _frexp2 (5)
+                            _builtin_holtek_dtdiv (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_dtsubadd (5)
+                                _builtin_holtek_dtdecode (6)
+                            _builtin_holtek_dtmul (5)
+                                _builtin_holtek_dtdecode (6)
+                        _builtin_holtek_dtdiv (4)
+                            _builtin_holtek_dtdecode (5)
+                        _builtin_holtek_dtmul (4)
+                            _builtin_holtek_dtdecode (5)
+                    _builtin_holtek_dtsubadd (3)
+                        _builtin_holtek_dtdecode (4)
+                    _Write_EEPROMBuf (3)
+                        _Crom2Prom (4)
+                        _Write_EEPROMByte (4)
+                            _Read_EEPROMByte (5)
+                    _Read_EEPROMBuf (3)
+                        _Read_EEPROMByte (4)
+                _OffMoedProcess (2)
+                    _LCD_Clear (3)
+                        _LCD_Clear_Buff (4)
+                        _LCD_ScanOut (4)
+                            _Crom2Prom (5)
+                            _Crom2Prom (5)
+                            _WriteAll_LCD (5)
+                                _Crom2Prom (6)
+                    _Show_BigString (3)
+                        _Crom2Prom (4)
+                        _Crom2Prom (4)
+                    _keyinti (3)
+                _Initial_HaltSys (2)
+                    _Initial_SysGpio (3)
+                _fun_StripModuleAllOpen (2)
+    _InitADC_Op1n2_Op1s0
+        _fun_StripModuleAllOpen (0)
+    _InitADC_Op1n1_Avss
+        _fun_StripModuleAllOpen (0)
+    _InitADC_Op1n2_Avss
+        _fun_StripModuleAllOpen (0)
+    _InitADC_Op2n_Op2o
+        _fun_StripModuleAllOpen2 (0)
+            _fun_StripModuleAllOpen (1)
+    _InitADC_Op2n_Avss
+        _fun_StripModuleAllOpen (0)
+    _atan2
+        _fabs (0)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+        _builtin_holtek_dtsubadd (0)
+            _builtin_holtek_dtdecode (1)
+        _builtin_holtek_dtdiv (0)
+            _builtin_holtek_dtdecode (1)
+        _atan (0)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtdiv (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtmul (1)
+                _builtin_holtek_dtdecode (2)
+            _builtin_holtek_dtsubadd (1)
+                _builtin_holtek_dtdecode (2)
+        _builtin_holtek_dtsubadd (0)
+            _builtin_holtek_dtdecode (1)
+    _Current_to_AD_Convert
+        _builtin_holtek_uitod (0)
+        _builtin_holtek_dtmul (0)
+            _builtin_holtek_dtdecode (1)
+        _builtin_holtek_dtsubadd (0)
+            _builtin_holtek_dtdecode (1)
+        _builtin_holtek_dtol (0)
+            _builtin_holtek_dtdecode (1)
+    _Short_beep
+        _delay_ms (0)
+    _Is_strip_in_sleep_wakeup
+        _delay (0)
+    @dummy1028
+        _Int0_funinterrupt (0)
+    @dummy1032
+        _Int1_funinterrupt (0)
+    @dummy1036
+        _Adc_funinterrupt (0)
+    @dummy1040
+        _Multi0_funinterrupt (0)
+    @dummy1044
+        _Multi1_funinterrupt (0)
+    @dummy1048
+        _Multi2_funinterrupt (0)
+    @dummy1052
+        _Ovp_funinterrupt (0)
+    @dummy1056
+        _TimeBase0_funinterrupt (0)
+            _Crom2Prom (1)
+    @dummy1060
+        _TimeBase1_funinterrupt (0)
+    @dummy1064
+        _Int2_funinterrupt (0)
+    @dummy1068
+        _Int32_funinterrupt (0)
+    @dummy1072
+        _Uart0_funinterrupt (0)
+            _Crom2Prom (1)
+    @dummy1076
+        _Sim_funinterrupt (0)
+    @dummy1080
+        _Spi_funinterrupt (0)
+    @dummy1084
+        _Uart1_funinterrupt (0)
+            _Crom2Prom (1)
+    _fun_UART0WriteTxBufStart
+        _Crom2Prom (0)
+        _fun_Uart0StartTx (0)
+            _Crom2Prom (1)
+    _fun_UART_SendValue
+        _builtin_holtek_divmodsi4_isr00 (0)
+        _fun_UART1WriteTxBufStart (0)
+            _Crom2Prom (1)
+            _fun_Uart1StartTx (1)
+                _Crom2Prom (2)
+        __DELAYX (0)
+    _Show_MonthDayString
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Show_HourMinString
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _ShowDec_BigNum_for_mem
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _ShowDec_MonthDay
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _ShowDec_HourMin
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _ShowDec_MeasDownCount
+        _Crom2Prom (0)
+        _Show_BigString (0)
+            _Crom2Prom (1)
+            _Crom2Prom (1)
+    _LCD_Seg_TestScan
+        _delay (0)
+        _Crom2Prom (0)
+        _WriteAll_LCD (0)
+            _Crom2Prom (1)
+        _memset (0)
+    _LCD_ScanIn
+        _ReadAll_LCD (0)
+            _Crom2Prom (1)
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Lcd_Year_Process
+        _builtin_holtek_divmodqi4_isr00 (0)
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Lcd_ShowHW
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Lcd_ShowFW
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Lcd_ShowAvgDay
+        _builtin_holtek_divmodqi4_isr00 (0)
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Lcd_ShowC1
+        _builtin_holtek_divmodqi4_isr00 (0)
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Lcd_ShowC2
+        _builtin_holtek_divmodqi4_isr00 (0)
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _Lcd_ShowRecordLength
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+    _get_auto_code
+        _load_autoCode_data (0)
+            _Crom2Prom (1)
+            _Crom2Prom (1)
+            _builtin_holtek_dtol (1)
+                _builtin_holtek_dtdecode (2)
+    _print_double
+        _memset (0)
+        _builtin_holtek_dtsubadd (0)
+            _builtin_holtek_dtdecode (1)
+        _Send_data (0)
+        _builtin_holtek_dtol (0)
+            _builtin_holtek_dtdecode (1)
+        _print_long (0)
+            _Send_data (1)
+            _memset (1)
+            _Crom2Prom (1)
+        _builtin_holtek_ultod (0)
+        _builtin_holtek_dtmul (0)
+            _builtin_holtek_dtdecode (1)
+        _builtin_holtek_itod (0)
+        _Crom2Prom (0)
+    _print_DataLen
+        _Crom2Prom (0)
+        _Send_data (0)
+    _dis_nub1
+        _Crom2Prom (0)
+        _Crom2Prom (0)
+        _LCD_ScanOut (0)
+            _Crom2Prom (1)
+            _Crom2Prom (1)
+            _WriteAll_LCD (1)
+                _Crom2Prom (2)
+
+HLINK : 程序的开始执行点在程序段'@code'（地址0）。定义在'c:\users\longshuangmin\desktop\worke_space\g-501\g-501\o\AP_ENTERY.OBJ' 文件中
+
+错误总数 : 0  警告总数 : 0
