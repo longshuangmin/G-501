@@ -37,8 +37,11 @@ void RTC_Mode_Setting_Process (void)
 			imp = 0;
 			M_RTC_display++;
 			if(M_RTC_display ==1)
-	      		//---Lcd All on
-	      		LCD_Clear(ON);
+				{
+	      			//---Lcd All on
+	      			LCD_Clear(ON);
+					Show_seg_full_screen_dis(0);
+				}
 				
 			else if(M_RTC_display >=100)
 			{
@@ -1139,123 +1142,71 @@ void RTC_Mode_Setting_Process (void)
 	    //--- C_Set_the_Unit
 		case C_Set_the_DeleteMemory:
 		{
-			switch(M_TaskBuf1)
+			switch (M_TaskBuf1)
 			{
 				case 0:
 				{
-				    //--- Display all time limit 1000ms
 				    M_RTC_display++;
-					
-				    if(M_RTC_display ==1)				    
-					{	
-					
-						if(imp)//按下M键后显示yes，有语音不用不用显示yes
-						{
-							//--- display "DEL"
-							Show_BigString( "YES" ) ;
-						}
-						else
-						{
-							Show_BigString( "DEL" ) ;
-						}
+				    if(M_RTC_display % 100 == 1)
+					{
+						//--- display "DEL"
+						Show_BigString( "DEL" ) ;
 						//Lcd_Display_DEL();
 						//--- display "Mem"
-						lcd.mem.Bit.Memory =1;
-						
-						F_LcdUpdate =1;
+						lcd.mem.Bit.Memory = 1;
+
+						F_LcdUpdate = 1;
 					}
-				    else if(M_RTC_display ==50)
+				    else if(M_RTC_display % 100 == 50)
 				    {
 						//--- display "Mem"
 						lcd.mem.Bit.Memory =0;
-						
-						F_LcdUpdate =1;
-					
-						
+
+						F_LcdUpdate = 1;
 				    }
-				    else if(M_RTC_display >=100)						//time base 10ms
-						M_RTC_display =0;
-
-
-	    			//---------------------------------
-					//--- check P_M_KEY ---
-					//--- long key 3sec into "main menu"
-					//--- short key 	into "memory mode"
-						
-		      	    if(setkey || setkeydown)
-		      	    {
-		      	    	 setkey=0;
-		      	    	 setkeydown=0;
-						//--- into next task 
-						//if(memkey==2)
-						if(imp==0)
-						{
-							 imp++;	
-
-							M_Error_Task =0;
-							M_No_Active_Cnt = 0;
-
-							LCD_Clear(OFF);
-							Show_BigString( "YES" ) ;	
-							F_LcdUpdate =1;
-							F_Beep_Shortx1 =1;
-
-						}
-						else
-						{
-							M_TaskBuf1 =1;
-							M_Error_Task =0;
-							M_RTC_display =0;
-							M_No_Active_Cnt = 0;
-										
-				      		//---Lcd All off
-				      		LCD_Clear(OFF);
-							
-							//--- Lcd update flag clear
-							F_LcdUpdate =0;
-							F_500ms_LCD =1;
-							F_Beep_Shortx1 =1;
-						}
-						
-		      	      						
-						
-		      	    } 						
-					
-
-			        
-			    	//---------------------------------
-					//--- check F_S_KEY_TOGGLE ---
-					//--- into adjust Year Vaule	    		
-			    	if(memkey==1)
-			    	{
-			    		memkey=0;
-						//--- Next task
-					    M_RTC_display = 0;
-						M_No_Active_Cnt = 0;
-						//M_Task = C_set_the_Alarm;
-						//M_TaskBuf0 =0;	
-						#ifdef UNIT_ADJUST
+				    else if (M_RTC_display >= 500 || memkey == 1)
+				    {
+#if UNIT_ADJUST
 						M_TaskBuf0 = C_Set_the_Unit;
-						#else
+#elif alarm_en
 						M_TaskBuf0 = C_set_the_Alarm;
-						#endif
-						M_TaskBuf1 =0;
-						M_Cbuf1 = 0;
-					    //F_Beep_Shortx1 =1;
-					    M_Error_Task =0;
+#else
+						M_TaskBuf0 = C_Set_out;
+#endif
+						M_RTC_display = 0;
+						if(memkey == 1)
+						{
+							F_Beep_Shortx1 =1;
+							memkey =0;
+						}
+				    }
+
+		      	    if (setkey == 2)
+		      	    {
+						//--- into next task
+						M_TaskBuf1 =1;
+						M_Error_Task =0;
+						M_RTC_display =0;
+						M_No_Active_Cnt = 0;
+
 			      		//---Lcd All off
 			      		LCD_Clear(OFF);
-			      		F_Beep_Shortx1 =1;
-					 }
+
+						//--- Lcd update flag clear
+						F_LcdUpdate =0;
+						F_500ms_LCD =0;
+						F_Beep_Shortx1 =1;
+
+						setkeydown = 0;
+		      	    }
 					break;
 				}
-				
+
 				//--- delete record
 				case 1:
 				{
 					if(F_500ms_LCD)
 					{
-					
 						Show_BigString( "---" ) ;
 						//Lcd_Display_dash();
 						if(lcd.mem.Bit.Memory)
@@ -1264,131 +1215,298 @@ void RTC_Mode_Setting_Process (void)
 						else
 							//--- display on "M"
 							lcd.mem.Bit.Memory =1;
-						
+
 						F_500ms_LCD =0;
 						F_LcdUpdate =1;
 					}
-					
+
 				    //--- Display all time limit 1000ms
 				    M_RTC_display++;
-				    
-				    if(M_RTC_display ==1)
+
+				    if (M_RTC_display == 1)
 				    {
-				    	M_GM_data_Record =0;
-				    	M_GM_Record_current =0;
-				    	
+				    	M_GM_data_Record = 0;
+				    	M_GM_Record_current = 0;
+
 						//--- Svav system vaule to flash
 						Store_SetVauletoFlash();
-						
-						
-						set_temp_25=0;
-						Write_EEPROMBuf(C_EEP_FactoryMode_Adr,(unsigned char*)&set_temp_25,1);						
-				    	
-//				    	ReadPage_flash(C_EEP_Significant);
-//				    	
-//						M_FlashBuf0[C_Flash_RecordAdr + 0x00] = M_GM_data_Record;  //load M_GM_data_Record 3D81
-//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x00] = M_GM_Record_current;  //load M_GM_Record_current 3D82
-//					
-//						M_FlashBuf0[C_Flash_RecordAdr + 0x10] = M_GM_data_Record;  //load M_GM_data_Record 3D81
-//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x10] = M_GM_Record_current;  //load M_GM_Record_current 3D82
-//						
-//						M_FlashBuf0[C_Flash_RecordAdr + 0x20] = M_GM_data_Record;  //load M_GM_data_Record 3D81
-//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x20] = M_GM_Record_current;  //load M_GM_Record_current 3D82
-//						
-//						M_FlashBuf0[C_Flash_RecordAdr + 0x30] = M_GM_data_Record;  //load M_GM_data_Record 3D81
-//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x30] = M_GM_Record_current;  //load M_GM_Record_current 3D82
-//						
-//						Significant_Checksum();	
-//						// Write flash area for special  record 3D80~3D85
-//						WritePage_flash(C_EEP_Significant);
-						
+
+						set_temp_25 = 0;
+						Write_EEPROMBuf(C_EEP_FactoryMode_Adr, (unsigned char*)&set_temp_25, 1);
 				    }
-				    else if(M_RTC_display >=100)						//time base 10ms
+				    else if (M_RTC_display >= 100) //time base 10ms
 				    {
-						//--- Next task
-					    M_RTC_display = 0;
-						M_No_Active_Cnt = 0;
-						//M_Task = C_set_the_Alarm;
-						#ifdef UNIT_ADJUST
+#if UNIT_ADJUST
 						M_TaskBuf0 = C_Set_the_Unit;
-						#else
+#elif alarm_en
 						M_TaskBuf0 = C_set_the_Alarm;
-						#endif		
-						M_TaskBuf1 =0;
-						M_Cbuf1 = 0;
-					    //F_Beep_Shortx1 =1;
-					    M_Error_Task =0;
-					    	setkey=0;
-					    	memkey=0;
-					    
-			      		//---Lcd All off
-			      		LCD_Clear(OFF);
+#else
+						M_TaskBuf0 = C_Set_out;
+#endif
+						M_RTC_display = 0;
 				    }
-					
-					break;	
+					break;
 				}
 			}
-	    	
 			break;
 		}
-		
-	
-		 //--- Error task ----
-	  	case C_Set_the_Error:
-	  	{
-			//--- display date & time
-//			if(F_LcdUpdateBuf ==0)
-//			{
-//				//--- display Month & Day
-//				Lcd_Month_Day_Process(M_Month,M_Days);
-//				//--- display Hour & Minutes
-//				Lcd_Clock_Process(M_Hour,M_Minutes);
-//				
-//				F_LcdUpdateBuf =1;
-//				F_LcdUpdate =1;
-//			}
-//			
-//			//--- display col flash
-			if(F_500ms_LCD)
+#if 0		
+			case C_Set_the_DeleteMemory:
 			{
-//				if(lcd.unit.Bit.TimeColon != 0)
-//					LCD_BitSetOut( LcdBit_Unit_TimeColon, OFF) ;
-//				else
-//					LCD_BitSetOut( LcdBit_Unit_TimeColon, ON ) ;
-//					
-//				F_500ms_LCD =0;
-				F_LcdUpdate =1;
-			}
-//	  		
-	  		M_RTC_display++;	  		
-	  		if((F_Low_battery_Act==0 && M_RTC_display > 300 )||( F_Low_battery_Act && M_RTC_display > 50 ))
-	  		{
-			    M_TaskBuf0 = C_Set_out;
-	  			
-	  		}
+				switch(M_TaskBuf1)
+				{
+					case 0:
+					{
+					    //--- Display all time limit 1000ms
+					    M_RTC_display++;
+						
+					    if(M_RTC_display ==1)				    
+						{	
+						
+							//if(imp)//按下M键后显示yes，有语音不用不用显示yes
+							//{
+							//	//--- display "DEL"
+							//	Show_BigString( "YES" ) ;
+							//}
+							//else
+							{
+								Show_BigString( "DEL" ) ;
+							}
+							//Lcd_Display_DEL();
+							//--- display "Mem"
+							lcd.mem.Bit.Memory =1;
+							
+							F_LcdUpdate =1;
+						}
+					    else if(M_RTC_display ==50)
+					    {
+							//--- display "Mem"
+							lcd.mem.Bit.Memory =0;
+							
+							F_LcdUpdate =1;
+						
+							
+					    }
+					    else if(M_RTC_display >=100)						//time base 10ms
+							M_RTC_display =0;
 
-			break; 
-	  	}
 
-	  	case C_Set_out:
-	  	default:
-	  	{
-			M_RTC_display++;
-			if(M_RTC_display >=8)
-			{
-			    M_RTC_display = 0;
-				M_No_Active_Cnt = 0;
-				M_Task = C_OffMode;
-				M_TaskBuf0 =0;			
-				M_TaskBuf1 =0;
-			    //F_Beep_Shortx1 =1;
-			    M_Error_Task =0;
-	      		//---Lcd All off
-	      		LCD_Clear(OFF);
+		    			//---------------------------------
+						//--- check P_M_KEY ---
+						//--- long key 3sec into "main menu"
+						//--- short key 	into "memory mode"
+							
+			      	    if(setkey || setkeydown)
+			      	    {
+			      	    	 setkey=0;
+			      	    	 setkeydown=0;
+							//--- into next task 
+							//if(memkey==2)
+							if(imp==0)
+							{
+								 imp++;	
+
+								M_Error_Task =0;
+								M_No_Active_Cnt = 0;
+
+								LCD_Clear(OFF);
+								Show_BigString( "YES" ) ;	
+								F_LcdUpdate =1;
+								F_Beep_Shortx1 =1;
+
+							}
+							else
+							{
+								M_TaskBuf1 =1;
+								M_Error_Task =0;
+								M_RTC_display =0;
+								M_No_Active_Cnt = 0;
+											
+					      		//---Lcd All off
+					      		LCD_Clear(OFF);
+								
+								//--- Lcd update flag clear
+								F_LcdUpdate =0;
+								F_500ms_LCD =1;
+								F_Beep_Shortx1 =1;
+							}
+							
+			      	      						
+							
+			      	    } 						
+						
+
+				        
+				    	//---------------------------------
+						//--- check F_S_KEY_TOGGLE ---
+						//--- into adjust Year Vaule	    		
+				    	if(memkey==1)
+				    	{
+				    		memkey=0;
+							//--- Next task
+						    M_RTC_display = 0;
+							M_No_Active_Cnt = 0;
+							//M_Task = C_set_the_Alarm;
+							//M_TaskBuf0 =0;	
+							#ifdef UNIT_ADJUST
+							M_TaskBuf0 = C_Set_the_Unit;
+							#elif alarm_en
+							M_TaskBuf0 = C_set_the_Alarm;
+							#else
+							M_TaskBuf0 = C_Set_out;
+							#endif
+							M_TaskBuf1 =0;
+							M_Cbuf1 = 0;
+						    //F_Beep_Shortx1 =1;
+						    M_Error_Task =0;
+				      		//---Lcd All off
+				      		//LCD_Clear(OFF);
+				      		F_Beep_Shortx1 =1;
+						 }
+						break;
+					}
+					
+					//--- delete record
+					case 1:
+					{
+						if(F_500ms_LCD)
+						{
+						
+							Show_BigString( "---" ) ;
+							//Lcd_Display_dash();
+							if(lcd.mem.Bit.Memory)
+								//--- display off "M"
+								lcd.mem.Bit.Memory =0;
+							else
+								//--- display on "M"
+								lcd.mem.Bit.Memory =1;
+							
+							F_500ms_LCD =0;
+							F_LcdUpdate =1;
+						}
+						
+					    //--- Display all time limit 1000ms
+					    M_RTC_display++;
+					    
+					    if(M_RTC_display ==1)
+					    {
+					    	M_GM_data_Record =0;
+					    	M_GM_Record_current =0;
+					    	
+							//--- Svav system vaule to flash
+							Store_SetVauletoFlash();
+							
+							
+							set_temp_25=0;
+							Write_EEPROMBuf(C_EEP_FactoryMode_Adr,(unsigned char*)&set_temp_25,1);						
+					    	
+		//				    	ReadPage_flash(C_EEP_Significant);
+		//				    	
+		//						M_FlashBuf0[C_Flash_RecordAdr + 0x00] = M_GM_data_Record;  //load M_GM_data_Record 3D81
+		//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x00] = M_GM_Record_current;  //load M_GM_Record_current 3D82
+		//					
+		//						M_FlashBuf0[C_Flash_RecordAdr + 0x10] = M_GM_data_Record;  //load M_GM_data_Record 3D81
+		//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x10] = M_GM_Record_current;  //load M_GM_Record_current 3D82
+		//						
+		//						M_FlashBuf0[C_Flash_RecordAdr + 0x20] = M_GM_data_Record;  //load M_GM_data_Record 3D81
+		//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x20] = M_GM_Record_current;  //load M_GM_Record_current 3D82
+		//						
+		//						M_FlashBuf0[C_Flash_RecordAdr + 0x30] = M_GM_data_Record;  //load M_GM_data_Record 3D81
+		//						M_FlashBuf0[C_Flash_Current_RecordAdr + 0x30] = M_GM_Record_current;  //load M_GM_Record_current 3D82
+		//						
+		//						Significant_Checksum();	
+		//						// Write flash area for special  record 3D80~3D85
+		//						WritePage_flash(C_EEP_Significant);
+							
+					    }
+					    else if(M_RTC_display >=100)						//time base 10ms
+					    {
+							//--- Next task
+						    M_RTC_display = 0;
+							M_No_Active_Cnt = 0;
+							//M_Task = C_set_the_Alarm;
+							#ifdef UNIT_ADJUST
+							M_TaskBuf0 = C_Set_the_Unit;
+							#elif alarm_en
+							M_TaskBuf0 = C_set_the_Alarm;
+							#else
+							M_TaskBuf0 = C_Set_out;
+							#endif		
+							M_TaskBuf1 =0;
+							M_Cbuf1 = 0;
+						    //F_Beep_Shortx1 =1;
+						    M_Error_Task =0;
+						    	setkey=0;
+						    	memkey=0;
+						    
+				      		//---Lcd All off
+				      		LCD_Clear(OFF);
+					    }
+						
+						break;	
+					}
+				}
+		    	
+				break;
 			}
-			break;
-	  	}
-	}
+			
+#endif
+			 //--- Error task ----
+		  	case C_Set_the_Error:
+		  	{
+				//--- display date & time
+		//			if(F_LcdUpdateBuf ==0)
+		//			{
+		//				//--- display Month & Day
+		//				Lcd_Month_Day_Process(M_Month,M_Days);
+		//				//--- display Hour & Minutes
+		//				Lcd_Clock_Process(M_Hour,M_Minutes);
+		//				
+		//				F_LcdUpdateBuf =1;
+		//				F_LcdUpdate =1;
+		//			}
+		//			
+		//			//--- display col flash
+				if(F_500ms_LCD)
+				{
+		//				if(lcd.unit.Bit.TimeColon != 0)
+		//					LCD_BitSetOut( LcdBit_Unit_TimeColon, OFF) ;
+		//				else
+		//					LCD_BitSetOut( LcdBit_Unit_TimeColon, ON ) ;
+		//					
+		//				F_500ms_LCD =0;
+					F_LcdUpdate =1;
+				}
+		//	  		
+		  		M_RTC_display++;	  		
+		  		if((F_Low_battery_Act==0 && M_RTC_display > 300 )||( F_Low_battery_Act && M_RTC_display > 50 ))
+		  		{
+				    M_TaskBuf0 = C_Set_out;
+		  			
+		  		}
+
+				break; 
+		  	}
+
+		  	case C_Set_out:
+		  	default:
+		  	{
+				M_RTC_display++;
+				if(M_RTC_display >=8)
+				{
+				    M_RTC_display = 0;
+					M_No_Active_Cnt = 0;
+					M_Task = C_OffMode;
+					M_TaskBuf0 =0;			
+					M_TaskBuf1 =0;
+				    //F_Beep_Shortx1 =1;
+				    M_Error_Task =0;
+		      		//---Lcd All off
+		      		LCD_Clear(OFF);
+				}
+				break;
+		  	}
+		}
 
 //	if(F_StripInsert)
 //	{

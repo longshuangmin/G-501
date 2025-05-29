@@ -5,34 +5,52 @@ void PwrOnMode (void)
 {
 	//unsigned int 	Ibuf0;
 	//unsigned char 	Cbuf0;
-	static unsigned char 	distime=80;
+	
+
 			M_RTC_display++;
 			
 			if(M_RTC_display ==1)
 			{
-				//--- display H/W Ver
-			//	ShowDec_BigNum(C_FwVersion / 100);
+				P_LED = 1;	
+				M_Ibuf0=400;	
+				LCD_Clear(ON);
+				Show_seg_full_screen_dis(1);
 				
+				//memset((unsigned char *)M_LCD_RAM,0xff,sizeof(M_LCD_RAM));
+				//F_LcdUpdate =1;	
+			
+			}
+			if(M_RTC_display ==300)
+			{
+				//--- display H/W Ver
+			//	ShowDec_BigNum(C_FwVersion / 100);	
+				LCD_Clear( 0);			
 				lcd.BigNum[0] = charTab['U'] ;	
 				lcd.BigNum[1] = HexTab[bl_Version/100/10] ;	  			
-	  			lcd.BigNum[2] = HexTab[bl_Version/100%10] ;				
+			  	lcd.BigNum[2] = HexTab[bl_Version/100%10] ;				
 				
 		
-				distime=80;
+
 				lcd.meas.Bit.BigNum_DP =1;
 				
-				F_LcdUpdate =1;
-			}
-			if(memkey || setkey)
+				F_LcdUpdate =1;				
+				
+			}					
+			if((M_RTC_display >=300)&&(memkey || setkey))
 			{
 				memkey=0;
 				setkey=0;
-				distime=200;
+				M_Ibuf0=600;
 				lcd.min[0] = HexTab[bl_Version%100/10] ;	  			
 				lcd.min[1] = HexTab[bl_Version%100%10] ;
 				F_LcdUpdate =1;
 			}
-			if(M_RTC_display >=distime)
+			else
+			{
+				memkey=0;
+				setkey=0;
+			}
+			if(M_RTC_display >=M_Ibuf0)
 			{
 				//--- into setting task
 					M_Task = C_OffMode;

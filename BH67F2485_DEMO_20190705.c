@@ -473,8 +473,7 @@ void main_AP(void)
 	    		    	}
 	    		    	
 	    		    	
-		    		
-	    		        if(memkey==1 || memkey==2)
+						if(memkey==1)
 	    		        {
 	    		        	//memkey=0;
 	    		        	

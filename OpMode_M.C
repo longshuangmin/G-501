@@ -42,7 +42,7 @@ void MemoryMode (void)
 #endif
 	      		//Clr_Bat();
 	      		//M_LCD_RAM[6]&=~(1<<3);//dis show beat
-	
+				Show_seg_full_screen_dis(0);
 				M_7days_datasum =0;
 				M_14days_datasum =0;
 				M_28days_datasum =0;

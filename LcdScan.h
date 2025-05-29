@@ -325,6 +325,7 @@ extern void LCD_Par_init(void);
 extern void LCD_Update(uint8_t status);
 extern void LCD_ScanOut1();
 extern void LCD_Clear1( bool OnOff );
+extern void Show_seg_full_screen_dis(unsigned char power_on);
 
 
 #endif	// End If LCDSCAN_H

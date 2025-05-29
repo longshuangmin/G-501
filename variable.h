@@ -3,21 +3,15 @@
 
 #include  "typedef.h"
 #define  LED   _pd6
-/*********************************************************************
-ĞÍºÅ£ºG-501°®°ÂÀÖ
-ËµÃ÷£º°®°ÂÀÖ×Ô¼º²úÆ·
-**********************************************************************/
-#define 	aiaole 
-#ifdef aiaole
-//#if defined(baizhitang) || defined(lanhang)
-//#error Wrong You cannot define more than two macro definitions simultaneously__2
-//#endif
+
+
+
 #define  time_12_hour_en 0
 #define  UART_TO_PC_EN 0
 #define  voice_en  0 //
-#define  unit_default 1  //0£ºmg£¬  1£ºmmol
-#define  UNIT_ADJUST	1 //1µ¥Î»¿Éµ÷£¬0µ¥Î»²»¿Éµ÷
-#endif
+#define  unit_default 1  //0ï¼šmgï¼Œ  1ï¼šmmol
+#define  UNIT_ADJUST	0 //1å•ä½å¯è°ƒï¼Œ0å•ä½ä¸å¯è°ƒ
+#define  alarm_en	0 //æ˜¯å¦æœ‰é—¹é“ƒåŠŸèƒ½ 1ï¼šæœ‰é—¹é“ƒï¼Œ0ï¼šæ²¡é—¹é“ƒ
 
 #define  NO_TEMPER_CORR 1     // 1-no temperature correction    0-temperature correction
 #define ACFG_OSC_EN 1     // 1-external clock    0-internal clock
@@ -39,7 +33,7 @@ typedef enum
   e_check_used,  
   e_check_temp,    
   
-  e_Start_detection,  //ÃÅ¼÷??
+  e_Start_detection,  //é—¨æ§›??
   e_ckfull_blood,
   e_Impedance_measurement,
   e_DC_Silence,  
@@ -202,7 +196,7 @@ static volatile  signed int  old_work_time __attribute__ ((at(0xa86)));
 static volatile  signed int  work_time_buf[10] __attribute__ ((at(0xa88)));
 
 
-static volatile  signed int DC_data_buf[64]  __attribute__ ((at(0xb80)));//´æ´¢ad²ÉÑùÊ±µÄ??
+static volatile  signed int DC_data_buf[64]  __attribute__ ((at(0xb80)));//å­˜å‚¨adé‡‡æ ·æ—¶çš„??
 static volatile  BGM_code mcode_data  __attribute__ ((at(0xc80)));
 static volatile  _sys_data sys_data  __attribute__ ((at(0xd80)));
 //------------------------------------------------------------------------------

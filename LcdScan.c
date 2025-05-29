@@ -179,9 +179,9 @@ static struct tagLCDTAB const LCDMappingTab[] = {
    	{&lcd.unit.Byte ,		LcdSeg_Unit_PM   		    ,	&LcdBuf[11]  , LcdSeg_S1 ,  11 },
    	{&lcd.unit.Byte ,		LcdSeg_Unit_TEMP   		    ,	&LcdBuf[14]  , LcdSeg_S4 ,  14 },
    	//                                                                                      
-   	{&lcd.mem.Byte ,			LcdSeg_Mem_Day	            ,	&LcdBuf[4]  , LcdSeg_S1 ,   4  },
-   	{&lcd.mem.Byte ,			LcdSeg_Mem_Average	        ,	&LcdBuf[4]  , LcdSeg_S0 ,   4  },
-   	{&lcd.mem.Byte ,			LcdSeg_Mem_Memory 		    ,	&LcdBuf[10] , LcdSeg_S1,    10 },
+   	{&lcd.mem.Byte ,		LcdSeg_Mem_Day	            ,	&LcdBuf[4]  , LcdSeg_S1 ,   4  },
+   	{&lcd.mem.Byte ,		LcdSeg_Mem_Average	        ,	&LcdBuf[4]  , LcdSeg_S0 ,   4  },
+   	{&lcd.mem.Byte ,		LcdSeg_Mem_Memory 		    ,	&LcdBuf[10] , LcdSeg_S1,    10 },
 	//                                                                                      
 	{&lcd.meas.Byte ,		LcdSeg_Meas_BigNum_DP      	,	&LcdBuf[14]  , LcdSeg_S0 ,  14 },
     {&lcd.meas.Byte ,		LcdSeg_Meas_Bat        		,	&LcdBuf[2]  , LcdSeg_S5 ,  2 },
@@ -633,7 +633,7 @@ void LCD_Seg_TestScan(void)
 }
 
 /*
-//´ËŒ‘·¨Complier•şÕJéåeÕ`
+//æ­¤å¯«æ³•Complieræœƒèªç‚ºéŒ¯èª¤
 void LCD_ScanIn()
 {
    	struct tagLCDTAB const *p;
@@ -916,7 +916,7 @@ void Lcd_Month_Day_Process( uint8_t month, uint8_t day )
 {
 //	unsigned char mychar = 0;
 	lcd.unit.Bit.DateSlash =1;
-   //Å¼ÏÖÆÁÄ»ÏÔÊ¾³ö´í£¬  ´Ë´¦×öÒ»²ã¹æ±Ü
+   //å¶ç°å±å¹•æ˜¾ç¤ºå‡ºé”™ï¼Œ  æ­¤å¤„åšä¸€å±‚è§„é¿
 	if(month>12 || month<1 ||
 		day>31 || day<1)
 	{
@@ -1140,7 +1140,7 @@ void Lcd_Glucose(signed int data)
 	}
 	else if(data > hi) {
 		Lcd_Unit();
-		Show_BigString( " HI" ) ;
+		Show_BigString( " Hi" ) ;
 		//Lcd_Display_Hi();
 	}						
 //	LCD_ScanOut() ;		
@@ -1318,5 +1318,40 @@ void Lcd_Display_Tes()
 	lcd.BigNum[2] = charTab['S'] ;			
 }
 
+void Show_seg_full_screen_dis(unsigned char power_on)
+{
+	if(power_on==0)//æ’è¯•çº¸å¼€æœºæˆ–è€…æŒ‰é”®å¼€æœº
+	{
+		M_LCD_RAM[2]&=~LcdSeg_S5;//dis show Strip low bat
+	}
+	M_LCD_RAM[16]&=~(1<<4);//dis show Strip StripBase
+	M_LCD_RAM[10]&=~(1<<0);//dis show unit	mg
+	M_LCD_RAM[11]&=~(1<<2);//dis show am
+	M_LCD_RAM[11]&=~(1<<1);//dis show pm
+	M_LCD_RAM[4]&=~(1<<1);//dis show day
+	M_LCD_RAM[4]&=~(1<<0);//dis show avg
+	M_LCD_RAM[15]&=~(1<<4);//dis show befor meal
+	M_LCD_RAM[16]&=~(1<<3);//dis show after meal
+	M_LCD_RAM[15]&=~(1<<5);//dis show mute
+	M_LCD_RAM[16]&=~(1<<3);//dis show after meal
+	M_LCD_RAM[16]&=~(1<<3);//dis show after meal
+	
+	M_LCD_RAM[3]&=~LcdSeg_S5;//dis show Send BLE
+	M_LCD_RAM[3]&=~LcdSeg_S4;//dis show Send_BLE_S1
+	M_LCD_RAM[3]&=~LcdSeg_S3 ;//dis show Send_BLE_S2
+	M_LCD_RAM[3]&=~LcdSeg_S2;//dis show Send_BLE_S3
+	M_LCD_RAM[17]&=~LcdSeg_S5 ;//dis show Send_ok
+	M_LCD_RAM[18]&=~LcdSeg_S5 ;//dis show Send_fail
+	M_LCD_RAM[18]&=~LcdSeg_S1;//dis show Ant_Ant
+	M_LCD_RAM[18]&=~LcdSeg_S2 ;//dis show Ant_Lv0 
+	M_LCD_RAM[18]&=~LcdSeg_S3 ;//dis show Ant_Lv1
+	M_LCD_RAM[18]&=~LcdSeg_S4 ;//dis show Ant_Lv2  
+	
+	M_LCD_RAM[2]&=~LcdSeg_S2 ;//dis show Alarm_Alarm
+	M_LCD_RAM[2]&=~LcdSeg_S0 ;//dis show Alarm_Seg1
+	M_LCD_RAM[2]&=~LcdSeg_S1 ;//dis show Alarm_Seg2
+	M_LCD_RAM[2]&=~LcdSeg_S3 ;//dis show Alarm_Seg3
+	M_LCD_RAM[2]&=~LcdSeg_S4 ;//dis show Alarm_Seg4
 
+}
 

@@ -828,6 +828,7 @@ void Normal_Measurement_Mode (void)
 	      		//---Lcd All on
 	      		
 	      		LCD_Clear(ON);
+				Show_seg_full_screen_dis(0);
 	      		memset((unsigned char *)DC_data_buf,0,128);
 	      		memset((unsigned char *)M_Impedance_data,0,80);				     	
 	            //--- Beep ON
@@ -1252,6 +1253,7 @@ void Normal_Measurement_Mode (void)
 				}
 #endif
 
+#if 0
 			
 			//--- Select Normal & Control
       		if(memkey == 1)
@@ -1292,7 +1294,7 @@ void Normal_Measurement_Mode (void)
 	      		//memkey=0;  
 	      		    						
       		}		
-    		
+#endif   		
       		if(memkey==2)
       		{
 				memkey = 0;
